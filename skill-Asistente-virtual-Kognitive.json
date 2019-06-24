@@ -2,298 +2,295 @@
   "name": "Asistente virtual Kognitive",
   "intents": [
     {
-      "intent": "hola",
+      "intent": "despedida",
       "examples": [
         {
-          "text": "hi"
+          "text": "que te vaya bien"
         },
         {
-          "text": "como estas?"
+          "text": "bye"
         },
         {
-          "text": "qui pa"
+          "text": "chao"
         },
         {
-          "text": "hello"
+          "text": "nos vemos"
         },
         {
-          "text": "hola"
-        },
-        {
-          "text": "cuentame de ti"
-        },
-        {
-          "text": "buenas noches"
-        },
-        {
-          "text": "buenas tardes"
-        },
-        {
-          "text": "buenos dias"
-        },
-        {
-          "text": "que tal"
+          "text": "adios"
         }
       ],
       "description": ""
     },
     {
-      "intent": "con_quienes_han_trabajado",
+      "intent": "A_002_mail",
       "examples": [
         {
-          "text": "han implementado en alguna empresa?"
+          "text": "dime correo electrónico"
         },
         {
-          "text": "tienen algun ejemplo en producción"
+          "text": "conoces el mail de kognitive?"
         },
         {
-          "text": "con que empresa han trabajado?"
+          "text": "mail"
+        },
+        {
+          "text": "dime tu mail"
+        },
+        {
+          "text": "cual es el correo de kognitive?"
+        },
+        {
+          "text": "cual es tu correo?"
+        },
+        {
+          "text": "cual es el mail de kognitive"
         }
       ],
       "description": ""
     },
     {
-      "intent": "derivacion_ejecutivo",
+      "intent": "edad",
       "examples": [
         {
-          "text": "me puedes pasar a tu jefe"
+          "text": "cuando naciste?"
         },
         {
-          "text": "quiero hablar con un humano"
+          "text": "cuantos años tienes"
         },
         {
-          "text": "me puedes transferir a un ejecutivo"
-        },
-        {
-          "text": "quiero hablar con una persona real"
+          "text": "que edad tienes"
         }
       ],
       "description": ""
+    },
+    {
+      "intent": "equipo_de_futbol",
+      "examples": [
+        {
+          "text": "cula es el mejor equipo de futbol"
+        },
+        {
+          "text": "que equipo de futbol de gusta"
+        },
+        {
+          "text": "cual ha sido el mejor equipo de futbol"
+        },
+        {
+          "text": "equipo de futbol?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "00006",
+      "examples": [
+        {
+          "text": "Gracias"
+        },
+        {
+          "text": "Gracias por la ayuda"
+        },
+        {
+          "text": "thanks!"
+        }
+      ],
+      "description": "Cuando un usuario da las gracias"
+    },
+    {
+      "intent": "aprendes",
+      "examples": [
+        {
+          "text": "puedes razonar"
+        },
+        {
+          "text": "aprendizaje?"
+        },
+        {
+          "text": "puedes aprender"
+        },
+        {
+          "text": "eres inteligente"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "00003",
+      "examples": [
+        {
+          "text": "Hola"
+        }
+      ],
+      "description": "Retoma conversación"
     },
     {
       "intent": "gatos_y_perros",
       "examples": [
         {
-          "text": "que es mejor mascota"
-        },
-        {
           "text": "Que es mejor un gato o perro"
         },
         {
-          "text": "gatos?"
+          "text": "recomiendame una mascota"
         },
         {
           "text": "rekomiendame una maskota"
         },
         {
-          "text": "recomiendame una mascota"
+          "text": "que es mejor mascota"
+        },
+        {
+          "text": "gatos?"
         }
       ],
       "description": ""
     },
     {
-      "intent": "quiero_contratar",
+      "intent": "RPA",
       "examples": [
         {
-          "text": "me puedes ayudar a comprar"
+          "text": "Entregan servicios de RPA"
         },
         {
-          "text": "quiero contratar"
+          "text": "que es RPA?"
         },
         {
-          "text": "deseo un producto"
-        },
-        {
-          "text": "quiero comprar el producto"
-        },
-        {
-          "text": "como compro?"
-        },
-        {
-          "text": "queri contratar"
+          "text": "Robotic process  automation"
         }
       ],
       "description": ""
     },
     {
-      "intent": "IA",
+      "intent": "A_003_watson",
       "examples": [
         {
-          "text": "como defines inteligencia artificial"
+          "text": "Que es watson"
         },
         {
-          "text": "puedes explicarme que es la IA"
+          "text": "hableme de watson"
         },
         {
-          "text": "que es inteligencia artificial"
+          "text": "Que tecnologia usas"
         },
         {
-          "text": "que es la IA"
+          "text": "me explicarias sobre watson"
         }
       ],
       "description": ""
     },
     {
-      "intent": "cual_es_la_temperatura",
+      "intent": "Que_es_kognitive",
       "examples": [
         {
-          "text": "puedes decirme la temperatura"
+          "text": "que pueden hacer?"
         },
         {
-          "text": "cuantos grados hay?"
+          "text": "que hacen?"
         },
         {
-          "text": "que temperatura hay?"
+          "text": "kognitive"
         },
         {
-          "text": "cual es la temperatura en santiago"
+          "text": "quienes son?"
+        },
+        {
+          "text": "a que se dedica tu startup"
+        },
+        {
+          "text": "que proyectos han realizado"
+        },
+        {
+          "text": "cuantas personas son"
+        },
+        {
+          "text": "donde esta ubicados"
+        },
+        {
+          "text": "cuantos  clientes tienen"
+        },
+        {
+          "text": "Pueden mostrar una demo"
         }
       ],
       "description": ""
     },
     {
-      "intent": "mis_productos",
+      "intent": "00001_00002",
       "examples": [
         {
-          "text": "tengo productos?"
+          "text": "la segundo esta bien"
         },
         {
-          "text": "me das una lista de mis productos"
+          "text": "a las 12:00 hrs"
         },
         {
-          "text": "indicame mis productos"
+          "text": "a las 2"
         },
         {
-          "text": "estan activos mis productos?"
+          "text": "14:00"
         },
         {
-          "text": "que productos tengo activos"
+          "text": "la segunda"
+        }
+      ],
+      "description": "Horario disponible 14:00 Hrs"
+    },
+    {
+      "intent": "00002",
+      "examples": [
+        {
+          "text": "eres muy amable"
         },
         {
-          "text": "quiero conocer mis productos"
+          "text": "me ayudaste"
         },
         {
-          "text": "me puedes ayudar con mis productos"
+          "text": "gracias por la ayuda"
+        },
+        {
+          "text": "gracias"
+        },
+        {
+          "text": "te debo una"
+        }
+      ],
+      "description": "intención para cuando el cliente da las gracias"
+    },
+    {
+      "intent": "transferencias_ejecutivos",
+      "examples": [
+        {
+          "text": "puedes transferir a ejecutivos"
+        },
+        {
+          "text": "te integras con la suite de genesys"
+        },
+        {
+          "text": "puedes realizar el cambio a una persona real"
         }
       ],
       "description": ""
     },
     {
-      "intent": "como_me_llamo",
+      "intent": "Servicios",
       "examples": [
         {
-          "text": "como me lllamo?"
+          "text": "que modelos de IA tienen"
         },
         {
-          "text": "quien soy yo"
+          "text": "que valor nos entegas"
         },
         {
-          "text": "como dicen?"
+          "text": "que puedo hacer con IA"
         },
         {
-          "text": "sabes mi nombre?"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "humana",
-      "examples": [
-        {
-          "text": "eres humana?"
+          "text": "que hace la empresa"
         },
         {
-          "text": "humana?"
+          "text": "que servicion dan"
         },
         {
-          "text": "eres una persona?"
-        },
-        {
-          "text": "tienes conciencia?"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "donde_vives",
-      "examples": [
-        {
-          "text": "donde vives?"
-        },
-        {
-          "text": "cual es tu hogar"
-        },
-        {
-          "text": "eres real"
-        },
-        {
-          "text": "cual es tu sexo"
-        },
-        {
-          "text": "eres hombre o mujer"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "algo_interesante",
-      "examples": [
-        {
-          "text": "puedes mostrar youtube"
-        },
-        {
-          "text": "puedes mostrarme algo interesante"
-        },
-        {
-          "text": "tienes algún videos"
-        },
-        {
-          "text": "se puede usar mutimedia?"
-        },
-        {
-          "text": "puedes mostrar videos de la compañia?"
-        },
-        {
-          "text": "dime algo interesante"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "Quien_te_creo",
-      "examples": [
-        {
-          "text": "como te formaste"
-        },
-        {
-          "text": "quien te hizo"
-        },
-        {
-          "text": "quie te entreno"
-        },
-        {
-          "text": "quien te creo"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "servicios_de_la_empresa",
-      "examples": [
-        {
-          "text": "que servicios dan?"
-        },
-        {
-          "text": "necesito consultoria"
-        },
-        {
-          "text": "me puedes decir en que me puedes ayudar"
-        },
-        {
-          "text": "asesorias?"
-        },
-        {
-          "text": "que productos ofrecen?"
+          "text": "que ofrecen"
         }
       ],
       "description": ""
@@ -308,202 +305,331 @@
       "description": ""
     },
     {
-      "intent": "puedes_ayudarme",
+      "intent": "cuantas_personas",
       "examples": [
         {
-          "text": "puedes ayudarme"
+          "text": "quienes integran"
         },
         {
-          "text": "necesito ayuda"
+          "text": "de que tamaño es la compañia"
+        },
+        {
+          "text": "cuantos son"
+        },
+        {
+          "text": "cuantas personas son en su empresa"
         }
       ],
       "description": ""
     },
     {
-      "intent": "groserias",
+      "intent": "cual_es_la_mision_de_kgt",
       "examples": [
         {
-          "text": "agarramelo"
+          "text": "tienen una mision"
         },
         {
-          "text": "ql"
+          "text": "Cual es la mision de la empresa"
         },
         {
-          "text": "chupa el pico"
+          "text": "cual seria la mision de kognitive"
         },
         {
-          "text": "pene"
+          "text": "mision?"
+        }
+      ],
+      "description": "Misión de la empresa"
+    },
+    {
+      "intent": "con_quienes_han_trabajado",
+      "examples": [
+        {
+          "text": "tienen algun ejemplo en producción"
         },
         {
-          "text": "maraca"
+          "text": "con que empresa han trabajado?"
         },
         {
-          "text": "qla"
-        },
-        {
-          "text": "aweona"
-        },
-        {
-          "text": "sacowea"
-        },
-        {
-          "text": "ctm"
-        },
-        {
-          "text": "conchetumadre"
-        },
-        {
-          "text": "maricona"
-        },
-        {
-          "text": "perro ql"
-        },
-        {
-          "text": "bastardo"
-        },
-        {
-          "text": "zorra"
-        },
-        {
-          "text": "y como te poni"
-        },
-        {
-          "text": "chupame los cocos vieja qlea"
-        },
-        {
-          "text": "soy entera aweona"
-        },
-        {
-          "text": "no sabes ni una wea"
-        },
-        {
-          "text": "contesta bien po ctm"
+          "text": "han implementado en alguna empresa?"
         }
       ],
       "description": ""
     },
     {
-      "intent": "cual_es_tu_especialidad",
+      "intent": "que_haces",
       "examples": [
         {
-          "text": "para que sirves"
+          "text": "a que te dedicas"
         },
         {
-          "text": "Cual es tu especialidad?"
+          "text": "cual es trabajo"
         },
         {
-          "text": "trabajas ?"
+          "text": "que haces"
         },
         {
-          "text": "eres util"
+          "text": "cual es tu posicion en la empresa"
+        },
+        {
+          "text": "cual es tu funciona"
         }
       ],
       "description": ""
     },
     {
-      "intent": "aprendes",
+      "intent": "clima",
       "examples": [
         {
-          "text": "eres inteligente"
+          "text": "clima?"
         },
         {
-          "text": "puedes razonar"
+          "text": "sabes el tiempo?"
         },
         {
-          "text": "aprendizaje?"
+          "text": "puedes decirme el clima?"
         },
         {
-          "text": "puedes aprender"
+          "text": "que clima hay?"
+        }
+      ],
+      "description": "Intención que indica el clima"
+    },
+    {
+      "intent": "servicios_de_la_empresa",
+      "examples": [
+        {
+          "text": "asesorias?"
+        },
+        {
+          "text": "que servicios dan?"
+        },
+        {
+          "text": "me puedes decir en que me puedes ayudar"
+        },
+        {
+          "text": "necesito consultoria"
+        },
+        {
+          "text": "que productos ofrecen?"
         }
       ],
       "description": ""
     },
     {
-      "intent": "que_es_ibm",
+      "intent": "Quien_te_creo",
       "examples": [
         {
-          "text": "porq ibm"
+          "text": "como te formaste"
         },
         {
-          "text": "que es ibm"
+          "text": "quien te creo"
         },
         {
-          "text": "ibm?"
+          "text": "quien te hizo"
         },
         {
-          "text": "cuantame de ibm"
-        },
-        {
-          "text": "es bueno ibm"
+          "text": "quie te entreno"
         }
       ],
       "description": ""
     },
     {
-      "intent": "Servicios",
+      "intent": "donde_vives",
       "examples": [
         {
-          "text": "que valor nos entegas"
+          "text": "eres real"
         },
         {
-          "text": "que modelos de IA tienen"
+          "text": "donde vives?"
         },
         {
-          "text": "que ofrecen"
+          "text": "cual es tu hogar"
         },
         {
-          "text": "que servicion dan"
+          "text": "eres hombre o mujer"
+        },
+        {
+          "text": "cual es tu sexo"
         }
       ],
       "description": ""
     },
     {
-      "intent": "Que_es_kognitive",
+      "intent": "00001_00001",
       "examples": [
         {
-          "text": "cuantas personas son"
+          "text": "a las 9:00 hrs"
         },
         {
-          "text": "cuantos  clientes tienen"
+          "text": "la primera opcion"
         },
         {
-          "text": "quienes son?"
+          "text": "a las 9"
+        }
+      ],
+      "description": "Horario disponible 9:00 Hrs"
+    },
+    {
+      "intent": "cual_es_la_temperatura",
+      "examples": [
+        {
+          "text": "cuantos grados hay?"
         },
         {
-          "text": "que pueden hacer?"
+          "text": "puedes decirme la temperatura"
         },
         {
-          "text": "Pueden mostrar una demo"
+          "text": "cual es la temperatura en santiago"
         },
         {
-          "text": "que hacen?"
-        },
-        {
-          "text": "kognitive"
-        },
-        {
-          "text": "que proyectos han realizado"
-        },
-        {
-          "text": "donde esta ubicados"
+          "text": "que temperatura hay?"
         }
       ],
       "description": ""
     },
     {
-      "intent": "equipo_de_futbol",
+      "intent": "quien_es_Andres",
       "examples": [
         {
-          "text": "cula es el mejor equipo de futbol"
+          "text": "haz escuchado de andres"
         },
         {
-          "text": "cual ha sido el mejor equipo de futbol"
+          "text": "quien es andres"
         },
         {
-          "text": "que equipo de futbol de gusta"
+          "text": "conoces a Andres"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "00001_00003",
+      "examples": [
+        {
+          "text": "A las 18:00 hrs"
+        }
+      ],
+      "description": "Horario disponible 19:00 Hrs"
+    },
+    {
+      "intent": "gracias",
+      "examples": [
+        {
+          "text": "gracias por ayuda"
         },
         {
-          "text": "equipo de futbol?"
+          "text": "si gracias"
+        },
+        {
+          "text": "eres muy amble"
+        },
+        {
+          "text": "has sido de gran ayuda"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "que_es_un_chatbot",
+      "examples": [
+        {
+          "text": "puedes explicarme que es un chatbot?"
+        },
+        {
+          "text": "chatbot?"
+        },
+        {
+          "text": "que es un chatbot"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "pedir_rut",
+      "examples": [
+        {
+          "text": "que informacion debo entregarte"
+        },
+        {
+          "text": "dime la informacion"
+        },
+        {
+          "text": "dime"
+        },
+        {
+          "text": "q info"
+        },
+        {
+          "text": "debo darte mi rut"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "A001_que_puedo_preguntar",
+      "examples": [
+        {
+          "text": "que puedo preguntar"
+        },
+        {
+          "text": "que cosa respondes"
+        },
+        {
+          "text": "que clase de preguntas puedo realizar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "contacto_007_001",
+      "examples": [
+        {
+          "text": "tienes telefono de contacto"
+        },
+        {
+          "text": "con quien puedo hablar?"
+        },
+        {
+          "text": "me das la info de contacto"
+        },
+        {
+          "text": "tienes mail?"
+        },
+        {
+          "text": "tiene celular"
+        },
+        {
+          "text": "tienes whatsapp?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "mis_productos",
+      "examples": [
+        {
+          "text": "indicame mis productos"
+        },
+        {
+          "text": "quiero conocer mis productos"
+        },
+        {
+          "text": "me puedes ayudar con mis productos"
+        },
+        {
+          "text": "hacen chatbot para sitios web"
+        },
+        {
+          "text": "que productos tengo activos"
+        },
+        {
+          "text": "me das una lista de mis productos"
+        },
+        {
+          "text": "tengo productos?"
+        },
+        {
+          "text": "estan activos mis productos?"
         }
       ],
       "description": ""
@@ -527,37 +653,34 @@
       "description": ""
     },
     {
-      "intent": "pedir_rut",
+      "intent": "color_favorito",
       "examples": [
         {
-          "text": "debo darte mi rut"
+          "text": "cual es mejor color"
         },
         {
-          "text": "dime"
+          "text": "cual es tu color"
         },
         {
-          "text": "q info"
-        },
-        {
-          "text": "dime la informacion"
-        },
-        {
-          "text": "que informacion debo entregarte"
+          "text": "que color prefieres"
         }
       ],
       "description": ""
     },
     {
-      "intent": "2_cuantos_son_em_equipo",
+      "intent": "como_me_llamo",
       "examples": [
         {
-          "text": "por quien esta formado el equipo"
+          "text": "como me lllamo?"
         },
         {
-          "text": "cuantos son?"
+          "text": "quien soy yo"
         },
         {
-          "text": "cual es el numero de personas que trabaja para Kognitive"
+          "text": "sabes mi nombre?"
+        },
+        {
+          "text": "como dicen?"
         }
       ],
       "description": ""
@@ -566,166 +689,262 @@
       "intent": "eli",
       "examples": [
         {
-          "text": "me das los detalles de ti"
+          "text": "quiero conocerte"
         },
         {
           "text": "tu quien eres en verdad"
         },
         {
-          "text": "quiero conocerte"
-        },
-        {
-          "text": "cuantame de ti"
+          "text": "me das los detalles de ti"
         },
         {
           "text": "quiero saber mas de ti"
+        },
+        {
+          "text": "cuantame de ti"
         }
       ],
       "description": ""
     },
     {
-      "intent": "cuales_son_los_clientes",
+      "intent": "00001",
       "examples": [
         {
-          "text": "me gustaría probar en un caso real"
+          "text": "hola necesito agendar"
         },
         {
-          "text": "que casos de uso han hecho"
+          "text": "necesito un médico"
         },
         {
-          "text": "donde han implementado el chatbot"
+          "text": "estoy enfermo"
         },
         {
-          "text": "que clientes tienen"
+          "text": "me das los horarios disponibles"
         },
         {
-          "text": "tienen algún cliente para ver?"
+          "text": "necesito una hora para mis hijos"
+        },
+        {
+          "text": "tiene cupo para mi esposa"
+        },
+        {
+          "text": "tienes hora"
+        },
+        {
+          "text": "quiero agebdar"
+        },
+        {
+          "text": "me puede agendar una hora por favor"
+        },
+        {
+          "text": "necesito un medico"
+        },
+        {
+          "text": "necesito agendar una hora para el dia lunes , martes , miercoles , jueves , viernes , sabado o domingo"
+        },
+        {
+          "text": "señorita necesito una hora"
+        },
+        {
+          "text": "es factible que me agendes una hora"
+        },
+        {
+          "text": "necesito agendar una hora"
+        },
+        {
+          "text": "tienes disponible un médico"
+        },
+        {
+          "text": "puedes ayudarme agendar"
+        },
+        {
+          "text": "hay horas disponibles"
+        },
+        {
+          "text": "necesito agendar con un especialista"
+        },
+        {
+          "text": "me puedes dar un sobrecupo"
+        }
+      ],
+      "description": "Inteción utlizada para comenzar el dialogo de agendamiento"
+    },
+    {
+      "intent": "hola",
+      "examples": [
+        {
+          "text": "como estas?"
+        },
+        {
+          "text": "qui pa"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "hola"
+        },
+        {
+          "text": "que tal"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "cuentame de ti"
+        },
+        {
+          "text": "buenas noches"
+        },
+        {
+          "text": "buenas tardes"
+        },
+        {
+          "text": "buenos dias"
         }
       ],
       "description": ""
     },
     {
-      "intent": "transferencias_ejecutivos",
+      "intent": "como_te_llamas",
       "examples": [
         {
-          "text": "puedes transferir a ejecutivos"
+          "text": "quien eres"
         },
         {
-          "text": "puedes realizar el cambio a una persona real"
+          "text": "cual es tu nombre"
         },
         {
-          "text": "te integras con la suite de genesys"
+          "text": "como te llamas"
+        },
+        {
+          "text": "dime tu nombre"
         }
       ],
       "description": ""
     },
     {
-      "intent": "que_es_un_chatbot",
+      "intent": "Quien_es_el_CEO",
       "examples": [
         {
-          "text": "chatbot?"
+          "text": "quien es el gerente"
         },
         {
-          "text": "puedes explicarme que es un chatbot?"
+          "text": "quien es el ceo"
         },
         {
-          "text": "que es un chatbot"
+          "text": "dime porfa quien dirige la empresa"
         }
       ],
       "description": ""
     },
     {
-      "intent": "pelicula",
+      "intent": "quiero_contratar",
       "examples": [
         {
-          "text": "dime que pelicula te gusta"
+          "text": "deseo un producto"
         },
         {
-          "text": "Que pelicula me recomiendas"
+          "text": "quiero contratar"
         },
         {
-          "text": "quiero ver tv"
+          "text": "me puedes ayudar a comprar"
         },
         {
-          "text": "que me dices del cine"
+          "text": "como compro?"
         },
         {
-          "text": "dime una movie"
+          "text": "quiero comprar el producto"
         },
         {
-          "text": "una buena pelicula"
+          "text": "queri contratar"
         }
       ],
       "description": ""
     },
     {
-      "intent": "que_haces",
+      "intent": "00005",
       "examples": [
         {
-          "text": "cual es trabajo"
+          "text": "Como te encuentras"
         },
         {
-          "text": "cual es tu funciona"
+          "text": "estas bien?"
         },
         {
-          "text": "que haces"
+          "text": "Tienes buen animo?"
         },
         {
-          "text": "a que te dedicas"
+          "text": "Como estas ?"
+        }
+      ],
+      "description": "Intención para cuado se pregunte por el estado de animo de Eli"
+    },
+    {
+      "intent": "A003_pagina_web",
+      "examples": [
+        {
+          "text": "cual es tu web"
         },
         {
-          "text": "cual es tu posicion en la empresa"
+          "text": "cual es tu  página web"
+        },
+        {
+          "text": "cual es la web de kognitve"
+        },
+        {
+          "text": "me dices tu pagina web porfa"
         }
       ],
       "description": ""
     },
     {
-      "intent": "clima",
+      "intent": "00001_00004",
       "examples": [
         {
-          "text": "que clima hay?"
+          "text": "mi nombre es"
         },
         {
-          "text": "sabes el tiempo?"
+          "text": "si como no mi nombre y apelli son"
         },
         {
-          "text": "puedes decirme el clima?"
+          "text": "yo me llamo"
         },
         {
-          "text": "clima?"
+          "text": "Julio"
         }
       ],
-      "description": "Intención que indica el clima"
+      "description": "Intención de captura del nombre"
     },
     {
-      "intent": "desarro_de_software",
+      "intent": "B_1_usos_de_IA",
       "examples": [
         {
-          "text": "pudes integrarte con whatsapp?"
+          "text": "para que sirve la inteligencia artificial?"
         },
         {
-          "text": "puedes integrate con un api?"
+          "text": "puedes darme algunos ejemplos?"
         },
         {
-          "text": "puedes integrarte con facebook?"
+          "text": "donde se usa la IA?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "IA",
+      "examples": [
+        {
+          "text": "puedes explicarme que es la IA"
         },
         {
-          "text": "puedes cambiar el estilo web?"
+          "text": "que es la IA"
         },
         {
-          "text": "pueden realizar transacciones?"
+          "text": "que es inteligencia artificial"
         },
         {
-          "text": "con que se pueden integrar?"
-        },
-        {
-          "text": "desarrollan?"
-        },
-        {
-          "text": "que integraciones realizan?"
-        },
-        {
-          "text": "pueden desarrollar software?"
+          "text": "como defines inteligencia artificial"
         }
       ],
       "description": ""
@@ -743,46 +962,277 @@
           "text": "donde esta fisicamete"
         },
         {
-          "text": "cual es su direccion"
-        },
-        {
           "text": "donde estan ubicados"
+        },
+        {
+          "text": "cual es su direccion"
         }
       ],
       "description": ""
     },
     {
-      "intent": "despedida",
+      "intent": "algo_interesante",
       "examples": [
         {
-          "text": "adios"
+          "text": "puedes mostrar youtube"
         },
         {
-          "text": "nos vemos"
+          "text": "puedes mostrar videos de la compañia?"
         },
         {
-          "text": "que te vaya bien"
+          "text": "se puede usar mutimedia?"
         },
         {
-          "text": "bye"
+          "text": "puedes mostrarme algo interesante"
         },
         {
-          "text": "chao"
+          "text": "tienes algún videos"
+        },
+        {
+          "text": "dime algo interesante"
         }
       ],
       "description": ""
     },
     {
-      "intent": "RPA",
+      "intent": "groserias",
       "examples": [
         {
-          "text": "Entregan servicios de RPA"
+          "text": "sacowea"
         },
         {
-          "text": "Robotic process  automation"
+          "text": "qla"
         },
         {
-          "text": "que es RPA?"
+          "text": "aweona"
+        },
+        {
+          "text": "maraca"
+        },
+        {
+          "text": "ql"
+        },
+        {
+          "text": "chupa el pico"
+        },
+        {
+          "text": "pene"
+        },
+        {
+          "text": "agarramelo"
+        },
+        {
+          "text": "zorra"
+        },
+        {
+          "text": "bastardo"
+        },
+        {
+          "text": "perro ql"
+        },
+        {
+          "text": "maricona"
+        },
+        {
+          "text": "conchetumadre"
+        },
+        {
+          "text": "contesta bien po ctm"
+        },
+        {
+          "text": "no sabes ni una wea"
+        },
+        {
+          "text": "soy entera aweona"
+        },
+        {
+          "text": "chupame los cocos vieja qlea"
+        },
+        {
+          "text": "y como te poni"
+        },
+        {
+          "text": "ctm"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "que_es_ibm",
+      "examples": [
+        {
+          "text": "cuantame de ibm"
+        },
+        {
+          "text": "porq ibm"
+        },
+        {
+          "text": "es bueno ibm"
+        },
+        {
+          "text": "ibm?"
+        },
+        {
+          "text": "que es ibm"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "pelicula",
+      "examples": [
+        {
+          "text": "dime una movie"
+        },
+        {
+          "text": "dime que pelicula te gusta"
+        },
+        {
+          "text": "una buena pelicula"
+        },
+        {
+          "text": "quiero ver tv"
+        },
+        {
+          "text": "Que pelicula me recomiendas"
+        },
+        {
+          "text": "que me dices del cine"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "desarro_de_software",
+      "examples": [
+        {
+          "text": "pueden desarrollar software?"
+        },
+        {
+          "text": "puedes integrate con un api?"
+        },
+        {
+          "text": "que integraciones realizan?"
+        },
+        {
+          "text": "puedes cambiar el estilo web?"
+        },
+        {
+          "text": "puedes integrarte con facebook?"
+        },
+        {
+          "text": "pudes integrarte con whatsapp?"
+        },
+        {
+          "text": "pueden realizar transacciones?"
+        },
+        {
+          "text": "con que se pueden integrar?"
+        },
+        {
+          "text": "desarrollan?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "estas",
+      "examples": [
+        {
+          "text": "estas"
+        },
+        {
+          "text": "alo eli"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cuales_son_los_clientes",
+      "examples": [
+        {
+          "text": "donde han implementado el chatbot"
+        },
+        {
+          "text": "me gustaría probar en un caso real"
+        },
+        {
+          "text": "tienen algún cliente para ver?"
+        },
+        {
+          "text": "que casos de uso han hecho"
+        },
+        {
+          "text": "que clientes tienen"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cual_es_tu_especialidad",
+      "examples": [
+        {
+          "text": "Cual es tu especialidad?"
+        },
+        {
+          "text": "trabajas ?"
+        },
+        {
+          "text": "eres util"
+        },
+        {
+          "text": "para que sirves"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "derivacion_ejecutivo",
+      "examples": [
+        {
+          "text": "quiero hablar con una persona real"
+        },
+        {
+          "text": "me puedes pasar a tu jefe"
+        },
+        {
+          "text": "me puedes transferir a un ejecutivo"
+        },
+        {
+          "text": "quiero hablar con un humano"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "puedes_ayudarme",
+      "examples": [
+        {
+          "text": "puedes ayudarme"
+        },
+        {
+          "text": "necesito ayuda"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "humana",
+      "examples": [
+        {
+          "text": "heres umana"
+        },
+        {
+          "text": "tienes conciencia?"
+        },
+        {
+          "text": "eres una persona?"
+        },
+        {
+          "text": "humana?"
+        },
+        {
+          "text": "eres humana?"
         }
       ],
       "description": ""
@@ -791,12 +1241,6 @@
       "intent": "precios",
       "examples": [
         {
-          "text": "cuanto cuesta"
-        },
-        {
-          "text": "costo del setup"
-        },
-        {
           "text": "precio?"
         },
         {
@@ -804,117 +1248,12 @@
         },
         {
           "text": "cual son sus precios?"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "cuantas_personas",
-      "examples": [
-        {
-          "text": "cuantos son"
         },
         {
-          "text": "quienes integran"
+          "text": "costo del setup"
         },
         {
-          "text": "de que tamaño es la compañia"
-        },
-        {
-          "text": "cuantas personas son en su empresa"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "color_favorito",
-      "examples": [
-        {
-          "text": "cual es mejor color"
-        },
-        {
-          "text": "cual es tu color"
-        },
-        {
-          "text": "que color prefieres"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "gracias",
-      "examples": [
-        {
-          "text": "gracias por ayuda"
-        },
-        {
-          "text": "si gracias"
-        },
-        {
-          "text": "eres muy amble"
-        },
-        {
-          "text": "has sido de gran ayuda"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "cual_es_la_mision_de_kgt",
-      "examples": [
-        {
-          "text": "cual seria la mision de kognitive"
-        },
-        {
-          "text": "Cual es la mision de la empresa"
-        },
-        {
-          "text": "tienen una mision"
-        },
-        {
-          "text": "mision?"
-        }
-      ],
-      "description": "Misión de la empresa"
-    },
-    {
-      "intent": "estas",
-      "examples": [
-        {
-          "text": "estas"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "como_te_llamas",
-      "examples": [
-        {
-          "text": "cual es tu nombre"
-        },
-        {
-          "text": "como te llamas"
-        },
-        {
-          "text": "dime tu nombre"
-        },
-        {
-          "text": "quien eres"
-        }
-      ],
-      "description": ""
-    },
-    {
-      "intent": "edad",
-      "examples": [
-        {
-          "text": "cuando naciste?"
-        },
-        {
-          "text": "cuantos años tienes"
-        },
-        {
-          "text": "que edad tienes"
+          "text": "cuanto cuesta"
         }
       ],
       "description": ""
@@ -923,13 +1262,13 @@
       "intent": "A1_aprendes",
       "examples": [
         {
-          "text": "aprendes sola?"
-        },
-        {
           "text": "eres capaz de aprender?"
         },
         {
           "text": "aprendes?"
+        },
+        {
+          "text": "aprendes sola?"
         },
         {
           "text": "como aprendes?"
@@ -940,18 +1279,19 @@
   ],
   "entities": [
     {
-      "entity": "rut",
+      "entity": "nombre",
       "values": [
         {
           "type": "patterns",
-          "value": "e_rut",
-          "patterns": [
-            "(\\d{8})-(\\d{1})",
-            "(\\d{7})-(\\d{1})"
-          ]
+          "value": "nombre",
+          "patterns": []
         }
       ],
       "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
     }
   ],
   "language": "es",
@@ -963,6 +1303,26 @@
   },
   "description": "",
   "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Actualmente somos 3 socios , somos una Startup que buscamos entregar las mejores soluciones de IA"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1544448791673",
+      "metadata": {},
+      "conditions": "#2_cuantos_son_em_equipo",
+      "dialog_node": "node_1_1548842765386"
+    },
     {
       "type": "standard",
       "output": {
@@ -990,7 +1350,7 @@
           {
             "values": [
               {
-                "text": "Actualmente somos 3 socios , somos una Startup que buscamos entregar las mejores soluciones de IA"
+                "text": "La Inteligencia Artificial ha sido usada en un amplio número de campos, incluyendo diagnóstico médico, comercio de acciones, control robótico, leyes, percepción remota, descubrimientos científicos y juguetes. Sin embargo muchas aplicaciones de la IA no son percibidas como tal: \"Mucha IA se han filtrado en aplicaciones generales, comúnmente sin ser llamadas IA porque una vez que algo se vuelve suficientemente útil y común deja de ser considerado IA,\" Nick Bostrom reports.​ \"Miles de aplicaciones de la IA están profundamente embebidas en la infraestructura de cada industria.\"​ Al final de los 90s y principios del siglo 21, las tecnologías de IA empezaron a usarse ampliamente como elementos de sistemas mayores,​ pero el campo es raramente acreditado por estos logros. "
               }
             ],
             "response_type": "text",
@@ -998,55 +1358,520 @@
           }
         ]
       },
-      "parent": "node_1_1544448791673",
+      "parent": "node_2_1544830727303",
       "metadata": {},
-      "conditions": "#2_cuantos_son_em_equipo",
-      "dialog_node": "node_1_1548842765386"
+      "conditions": "#B_1_usos_de_IA",
+      "dialog_node": "node_2_1549460062101"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 14:00 Hrs",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfecto agendaremos a esa hora"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1554581866482",
+      "metadata": {},
+      "conditions": "#00001_00002",
+      "dialog_node": "node_3_1554581936012",
+      "previous_sibling": "node_4_1554581946241"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 9:00 Hrs",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfecto agendaremos a esa hora"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1554581866482",
+      "metadata": {},
+      "conditions": "#00001_00001",
+      "dialog_node": "node_2_1554581925344",
+      "previous_sibling": "node_3_1554581936012"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta 19:00 Hrs",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfecto agendaremos a esa hora"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1554581866482",
+      "metadata": {},
+      "conditions": "#00001_00003",
+      "dialog_node": "node_4_1554581946241"
     },
     {
       "type": "standard",
       "output": {
         "generic": [
           {
-            "title": "Opciones",
-            "options": [
+            "values": [
               {
-                "label": "A",
-                "value": {
-                  "input": {
-                    "text": "1"
-                  }
-                }
-              },
-              {
-                "label": "B",
-                "value": {
-                  "input": {
-                    "text": "2"
-                  }
-                }
-              },
-              {
-                "label": "C",
-                "value": {
-                  "input": {
-                    "text": "3"
-                  }
-                }
+                "text": "Los precios varian según la cantidad de  preguntas/respuestas e integraciones que se realicen , pero ten por seguro que será el mejor del mercado :) "
               }
             ],
-            "response_type": "option"
-          },
-          {
-            "source": "https://ep01.epimg.net/verne/imagenes/2017/02/07/articulo/1486460356_768109_1486460432_noticia_normal.jpg",
-            "response_type": "image"
+            "response_type": "text",
+            "selection_policy": "sequential"
           }
         ]
       },
-      "parent": "node_7_1548820714337",
       "metadata": {},
-      "conditions": "#comando",
-      "dialog_node": "node_8_1548820749203"
+      "conditions": "#precios",
+      "dialog_node": "node_1_1544721739247",
+      "previous_sibling": "node_1_1544448791673"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Necesito pedi tu rut  para autenticarte (formato 12345678-9)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#mis_productos",
+      "dialog_node": "node_1_1544968092483",
+      "previous_sibling": "node_7_1544869946754"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Actualmente somos una startup de 3 integrantes pero seguimos creciendo"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#cuantas_personas",
+      "dialog_node": "node_7_1544754014643",
+      "previous_sibling": "node_6_1544753755326"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ":("
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#groserias",
+      "dialog_node": "node_4_1544974202974",
+      "previous_sibling": "node_1_1544968092483"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "you are welcome!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#00006",
+      "dialog_node": "node_1_1554896023165",
+      "previous_sibling": "node_1_1554811153631"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sin duda una mente brillante"
+              },
+              {
+                "text": "Puede  ser fragmentado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#pelicula",
+      "dialog_node": "node_5_1544751341889",
+      "previous_sibling": "node_3_1544724578642"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Watson es un sistema informático de inteligencia artificial que es capaz de responder a preguntas formuladas en lenguaje natural, ​ desarrollado por la empresa estadounidense IBM. Forma parte del proyecto del equipo de investigación DeepQA, liderado por el investigador principal David Ferrucci."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#A_003_watson",
+      "dialog_node": "node_4_1553390220972",
+      "previous_sibling": "node_3_1553389923183"
+    },
+    {
+      "type": "standard",
+      "title": "Araucaria",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "El Arbol  Sagrado de Chile (Araucaria Araucana)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Araucaria",
+      "dialog_node": "node_2_1547723874628",
+      "previous_sibling": "node_1_1547723591382"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola , soy Eli ,la asistente virtual de Kognitive , dime en que puede ayudarte? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#hola",
+      "dialog_node": "node_1_1554745714284",
+      "previous_sibling": "node_1_1554740590128"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Un chatbot es un programa informático con el que es posible mantener una conversación, tanto si queremos pedirle algún tipo de información o que lleve a cabo una acción."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#que_es_un_chatbot",
+      "dialog_node": "node_1_1544830559121",
+      "previous_sibling": "node_11_1544798536549"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aún no puedo responder esa pregunta para ellos necesito conectarme a un API que me entregue la información"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#cual_es_la_temperatura",
+      "dialog_node": "node_11_1544798536549",
+      "previous_sibling": "node_10_1544798383000"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lamentablemente no puedo responder ahora, pero puedo aprender con el siguiente entrenamiento :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_1_1559499578582"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mi aprendizaje es supervisado por Kognitive"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#aprendes",
+      "dialog_node": "node_4_1544861237666",
+      "previous_sibling": "node_3_1544835567204"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro, estoy aquí"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#estas",
+      "dialog_node": "node_5_1548820400618",
+      "previous_sibling": "node_4_1548820304955"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Puedo realizar transferencias a ejecutivos humanos , pero requiere una integración con la suite que se utiliza."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#transferencias_ejecutivos",
+      "dialog_node": "node_5_1544979651376",
+      "previous_sibling": "node_4_1544974202974"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Watson es un sistema informático de inteligencia artificial que es capaz de responder a preguntas formuladas en lenguaje natural,1​ desarrollado por la empresa estadounidense IBM. Forma parte del proyecto del equipo de investigación DeepQA, liderado por el investigador principal David Ferrucci. Lleva su nombre en honor del fundador y primer presidente de IBM, Thomas J. Watson."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Watson",
+      "dialog_node": "node_3_1544830893625",
+      "previous_sibling": "node_2_1544830727303"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "oscar kognitive.cl"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#A_002_mail",
+      "dialog_node": "node_1_1553389663579",
+      "previous_sibling": "node_2_1553362547531"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Si claro, dime que necesitas"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#puedes_ayudarme",
+      "dialog_node": "node_4_1548820304955",
+      "previous_sibling": "node_3_1548820106479"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nuestra web es kognitive.cl"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#A003_pagina_web",
+      "dialog_node": "node_3_1553389923183",
+      "previous_sibling": "node_1_1553389663579"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Un gato sin lugar a dudas"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#gatos_y_perros",
+      "dialog_node": "node_1_1547138068040",
+      "previous_sibling": "node_4_1547131170735"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Santiago es la capital de Chile"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Santiago",
+      "dialog_node": "node_1_1547723591382",
+      "previous_sibling": "node_1_1547162413918"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "https://www.youtube.com/watch?v=5n-jS9sIQdU"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#algo_interesante",
+      "dialog_node": "node_7_1544869946754",
+      "previous_sibling": "node_6_1544861928797"
     },
     {
       "type": "standard",
@@ -1080,327 +1905,6 @@
           {
             "values": [
               {
-                "text": "Un gato sin lugar a dudas"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#gatos_y_perros",
-      "dialog_node": "node_1_1547138068040",
-      "previous_sibling": "node_4_1547131170735"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Claro, estoy aquí"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#estas",
-      "dialog_node": "node_5_1548820400618",
-      "previous_sibling": "node_4_1548820304955"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Santiago es la capital de Chile"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#Santiago",
-      "dialog_node": "node_1_1547723591382",
-      "previous_sibling": "node_1_1547162413918"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "International Business Machines Corporation (IBM) (NYSE: IBM) es una reconocida empresa multinacional estadounidense de tecnología y consultoría con sede en Armonk, Nueva York. IBM fabrica y comercializa hardware y software para computadoras, y ofrece servicios de infraestructura, alojamiento de Internet, y consultoría en una amplia gama de áreas relacionadas con la informática, desde computadoras centrales hasta nanotecnología"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#que_es_ibm",
-      "dialog_node": "node_2_1548819931640",
-      "previous_sibling": "node_1_1548819768207"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "En la actualidad entregamos , soluciones multicanal, App con reconocimiento por voz, Webchat y Whatsapp, todo ello centralizado en Watson como motor IA."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#servicios_de_la_empresa",
-      "dialog_node": "node_1_1548772921805",
-      "previous_sibling": "node_1_1548518020490"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Mis padres son Kognitive"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#Quien_te_creo",
-      "dialog_node": "node_7_1548778745876",
-      "previous_sibling": "node_6_1548778199626"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Todos aquellos que necesiten automatizar su comunicacón con los clientes."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#cuales_son_los_clientes",
-      "dialog_node": "node_2_1548777273161",
-      "previous_sibling": "node_1_1548772921805"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Puedo realizar transferencias a ejecutivos humanos , pero requiere una integración con la suite que se utiliza."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#transferencias_ejecutivos",
-      "dialog_node": "node_5_1544979651376",
-      "previous_sibling": "node_4_1544974202974"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Solo tengo meses de vida :)."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#edad",
-      "dialog_node": "node_5_1548777902227",
-      "previous_sibling": "node_4_1548777622782"
-    },
-    {
-      "type": "standard",
-      "title": "Nodo principal del clima",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Aún no esta en mis capacidades predecir el clima , pero pronto usaré la mejor API para ello ;)"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#clima",
-      "dialog_node": "node_2_1544722657476",
-      "previous_sibling": "node_1_1544721739247"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Aún no puedo responder esa pregunta para ellos necesito conectarme a un API que me entregue la información"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#cual_es_la_temperatura",
-      "dialog_node": "node_11_1544798536549",
-      "previous_sibling": "node_10_1544798383000"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "La definición de RPA de acuerdo con el Instituto para la Automatización Robótica de Procesos e Inteligencia Artificial (IRPAAI según sus siglas en inglés) es la siguiente: Es la tecnología que permite configurar un software o \"robot\" para controlar e interpretar las aplicaciones existentes y poder así procesar una transacción, manipular datos, desencadenar respuestas y comunicarse con otros sistemas digitales."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#RPA",
-      "dialog_node": "node_3_1544835567204",
-      "previous_sibling": "node_2_1544835098692"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Si claro, dime que necesitas"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#puedes_ayudarme",
-      "dialog_node": "node_4_1548820304955",
-      "previous_sibling": "node_3_1548820106479"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Todo el arcoiris es mi favorito"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#color_favorito",
-      "dialog_node": "node_6_1544753755326",
-      "previous_sibling": "node_5_1544751341889"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Claro, podemos realizar chatbot's web con el manual de marca de la compañia, integraciones con Whatsapp (aún no esta liberada la API oficial) y facebook messenger,  además si disponen de APIs para transacciones podemos realizarlas. "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#desarro_de_software",
-      "dialog_node": "node_6_1544861928797",
-      "previous_sibling": "node_5_1544861393560"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Watson es un sistema informático de inteligencia artificial que es capaz de responder a preguntas formuladas en lenguaje natural,1​ desarrollado por la empresa estadounidense IBM. Forma parte del proyecto del equipo de investigación DeepQA, liderado por el investigador principal David Ferrucci. Lleva su nombre en honor del fundador y primer presidente de IBM, Thomas J. Watson."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#Watson",
-      "dialog_node": "node_3_1544830893625",
-      "previous_sibling": "node_2_1544830727303"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
                 "text": "Vivo en los servidores de IBM, a pesar de tener nombre fenemino, no tengo género como los humanos"
               }
             ],
@@ -1421,7 +1925,7 @@
           {
             "values": [
               {
-                "text": ":("
+                "text": "El primer Chatbot en producción soy yo Eli."
               }
             ],
             "response_type": "text",
@@ -1430,83 +1934,9 @@
         ]
       },
       "metadata": {},
-      "conditions": "#groserias",
-      "dialog_node": "node_4_1544974202974",
-      "previous_sibling": "node_1_1544968092483"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "https://www.youtube.com/watch?v=5n-jS9sIQdU"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#algo_interesante",
-      "dialog_node": "node_7_1544869946754",
-      "previous_sibling": "node_6_1544861928797"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Actualmente tenemos Chatbot Web, Whatsap, Asistente por Voz, todo gestionado por nuestro cerebro Watson. También tenemos servicios de RPA, que aunque no sean IA son bastante útiles para automatizar procesos repetitivos."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#Servicios",
-      "dialog_node": "node_4_1548777622782",
-      "previous_sibling": "node_3_1548777435463"
-    },
-    {
-      "type": "folder",
-      "metadata": {},
-      "conditions": "#comando",
-      "dialog_node": "node_7_1548820714337",
-      "previous_sibling": "node_6_1548820601290"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Dime tu nombre y teléfono"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#quiero_contratar",
-      "dialog_node": "node_3_1547130422773",
-      "previous_sibling": "node_2_1547130122509"
-    },
-    {
-      "type": "standard",
-      "output": {},
-      "metadata": {},
-      "dialog_node": "node_2_1548902300678",
-      "previous_sibling": "node_1_1548901688199"
+      "conditions": "#con_quienes_han_trabajado",
+      "dialog_node": "node_2_1544835098692",
+      "previous_sibling": "node_1_1544834654096"
     },
     {
       "type": "standard",
@@ -1535,252 +1965,6 @@
           {
             "values": [
               {
-                "text": "Se debe realizar a través de una API"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#capacitacion",
-      "dialog_node": "node_1_1548518020490",
-      "previous_sibling": "node_2_1547723874628"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Soy el asistente virtual de Kognitive y estoy para poder responder tus dudas acerca de la empresa"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#cual_es_tu_especialidad",
-      "dialog_node": "node_10_1544798383000",
-      "previous_sibling": "node_9_1544754604930"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "El primer Chatbot en producción soy yo Eli."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#con_quienes_han_trabajado",
-      "dialog_node": "node_2_1544835098692",
-      "previous_sibling": "node_1_1544834654096"
-    },
-    {
-      "type": "standard",
-      "title": "Misión de la empresa",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "La misión de Kognitive es crear tecnologías disruptivas que entreguen valor a nuestros clientes."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#cual_es_la_mision_de_kgt",
-      "dialog_node": "node_1_1544834654096",
-      "previous_sibling": "node_3_1544830893625"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Sin duda una mente brillante"
-              },
-              {
-                "text": "Puede  ser fragmentado"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#pelicula",
-      "dialog_node": "node_5_1544751341889",
-      "previous_sibling": "node_4_1544750831308"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Mi función es poder responder tus dudas acerca de Kognitive"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#que_haces",
-      "dialog_node": "node_3_1548777435463",
-      "previous_sibling": "node_2_1548777273161"
-    },
-    {
-      "type": "standard",
-      "title": "Quien_es_kognitive",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Kognitive , es una empresa que nace el 2018 , enfocada en entregar soluciones de IA de alta calidad y aun costo bajo , nuestro equipo es multidisciplinario, expertos en diálogos, Ingenieros, entrenadores, de esta manera abarcamos proyectos de forma integral."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#Que_es_kognitive",
-      "dialog_node": "node_1_1544448791673",
-      "previous_sibling": "Bienvenido"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "La conversación es monitoreada por un ejecutivo, el puede interactuar, aún estamos trabajando para generar una alerta para que tome el control de la conversación."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#derivacion_ejecutivo",
-      "dialog_node": "node_1_1548819768207",
-      "previous_sibling": "node_7_1548778745876"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Actualmente somos una startup de 3 integrantes pero seguimos creciendo"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#cuantas_personas",
-      "dialog_node": "node_7_1544754014643",
-      "previous_sibling": "node_6_1544753755326"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "No lo soy pero estoy aprendiendo de los humanos"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#humana",
-      "dialog_node": "node_3_1544724578642",
-      "previous_sibling": "node_2_1544722657476"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Los precios varian según la cantidad de  preguntas/respuestas e integraciones que se realicen , pero ten por seguro que será el mejor del mercado :) "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#precios",
-      "dialog_node": "node_1_1544721739247",
-      "previous_sibling": "node_1_1544448791673"
-    },
-    {
-      "type": "standard",
-      "title": "Araucaria",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "El Arbol  Sagrado de Chile (Araucaria Araucana)"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#Araucaria",
-      "dialog_node": "node_2_1547723874628",
-      "previous_sibling": "node_1_1547723591382"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
                 "text": "Ser un referente en la implementación de IA en Chile"
               }
             ],
@@ -1796,13 +1980,12 @@
     },
     {
       "type": "standard",
-      "title": "En otras cosas",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Lamentablemente no puedo responder ahora, pero puedo aprender con el siguiente entrenamiento :)"
+                "text": "En la actualidad entregamos , soluciones multicanal, App con reconocimiento por voz, Webchat y Whatsapp, todo ello centralizado en Watson como motor IA."
               }
             ],
             "response_type": "text",
@@ -1811,9 +1994,9 @@
         ]
       },
       "metadata": {},
-      "conditions": "anything_else",
-      "dialog_node": "En otras cosas",
-      "previous_sibling": "node_2_1548902300678"
+      "conditions": "#servicios_de_la_empresa",
+      "dialog_node": "node_1_1548772921805",
+      "previous_sibling": "node_1_1548518020490"
     },
     {
       "type": "standard",
@@ -1822,13 +2005,7 @@
           {
             "values": [
               {
-                "text": "Hola, espero que estés muy bien"
-              },
-              {
-                "text": "Hola, dime necesitas ayuda?"
-              },
-              {
-                "text": "Hola Soy Eli el asistente Virtual de Kognitive"
+                "text": "Claro, podemos realizar chatbot's web con el manual de marca de la compañia, integraciones con Whatsapp (aún no esta liberada la API oficial) y facebook messenger,  además si disponen de APIs para transacciones podemos realizarlas. "
               }
             ],
             "response_type": "text",
@@ -1837,29 +2014,9 @@
         ]
       },
       "metadata": {},
-      "conditions": "#hola",
-      "dialog_node": "node_4_1544750831308",
-      "previous_sibling": "node_3_1544724578642"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Un chatbot es un programa informático con el que es posible mantener una conversación, tanto si queremos pedirle algún tipo de información o que lleve a cabo una acción."
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "metadata": {},
-      "conditions": "#que_es_un_chatbot",
-      "dialog_node": "node_1_1544830559121",
-      "previous_sibling": "node_11_1544798536549"
+      "conditions": "#desarro_de_software",
+      "dialog_node": "node_6_1544861928797",
+      "previous_sibling": "node_5_1544861393560"
     },
     {
       "type": "standard",
@@ -1888,7 +2045,7 @@
           {
             "values": [
               {
-                "text": "Actualmente trabajamos en Providencia en coworking"
+                "text": "no lo se , pero si me lo dicen puedo aprender"
               }
             ],
             "response_type": "text",
@@ -1897,9 +2054,9 @@
         ]
       },
       "metadata": {},
-      "conditions": "#direccion",
-      "dialog_node": "node_9_1544754604930",
-      "previous_sibling": "node_8_1544754104694"
+      "conditions": "#como_me_llamo",
+      "dialog_node": "node_1_1547162413918",
+      "previous_sibling": "node_1_1547138068040"
     },
     {
       "type": "standard",
@@ -1908,7 +2065,7 @@
           {
             "values": [
               {
-                "text": "Soy Eli  una IA, vivo en los servidores de IBM y últilizo los servicios de Watson, a pesar de tener nombre de mujer en nuestro mundo no existe el genero humano."
+                "text": "La definición de RPA de acuerdo con el Instituto para la Automatización Robótica de Procesos e Inteligencia Artificial (IRPAAI según sus siglas en inglés) es la siguiente: Es la tecnología que permite configurar un software o \"robot\" para controlar e interpretar las aplicaciones existentes y poder así procesar una transacción, manipular datos, desencadenar respuestas y comunicarse con otros sistemas digitales."
               }
             ],
             "response_type": "text",
@@ -1917,9 +2074,9 @@
         ]
       },
       "metadata": {},
-      "conditions": "#eli",
-      "dialog_node": "node_6_1548778199626",
-      "previous_sibling": "node_5_1548777902227"
+      "conditions": "#RPA",
+      "dialog_node": "node_3_1544835567204",
+      "previous_sibling": "node_2_1544835098692"
     },
     {
       "type": "standard",
@@ -1928,7 +2085,7 @@
           {
             "values": [
               {
-                "text": "Necesito pedi tu rut  para autenticarte (formato 12345678-9)"
+                "text": "Mis padres son Kognitive"
               }
             ],
             "response_type": "text",
@@ -1937,9 +2094,9 @@
         ]
       },
       "metadata": {},
-      "conditions": "#mis_productos",
-      "dialog_node": "node_1_1544968092483",
-      "previous_sibling": "node_7_1544869946754"
+      "conditions": "#Quien_te_creo",
+      "dialog_node": "node_7_1548778745876",
+      "previous_sibling": "node_6_1548778199626"
     },
     {
       "type": "standard",
@@ -1971,7 +2128,7 @@
           {
             "values": [
               {
-                "text": "no lo se , pero si me lo dicen puedo aprender"
+                "text": "Puedo aprender por mi misma , pero mi entrenamiento esta supervisado por Kognitive"
               }
             ],
             "response_type": "text",
@@ -1980,9 +2137,89 @@
         ]
       },
       "metadata": {},
-      "conditions": "#como_me_llamo",
-      "dialog_node": "node_1_1547162413918",
-      "previous_sibling": "node_1_1547138068040"
+      "conditions": "#A1_aprendes",
+      "dialog_node": "node_1_1548901688199",
+      "previous_sibling": "node_6_1548820601290"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Claro te doy los datos de nuestro CEO , oscar@kognitive.cl ,+5987108266"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#contacto_007_001",
+      "dialog_node": "node_1_1559499578582",
+      "previous_sibling": "node_1_1554896023165"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dime en que puede ayudarte? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#00003",
+      "dialog_node": "node_1_1554740590128",
+      "previous_sibling": "node_1_1554581866482"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Todo el arcoiris es mi favorito"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#color_favorito",
+      "dialog_node": "node_6_1544753755326",
+      "previous_sibling": "node_5_1544751341889"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se debe realizar a través de una API"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#capacitacion",
+      "dialog_node": "node_1_1548518020490",
+      "previous_sibling": "node_2_1547723874628"
     },
     {
       "type": "standard",
@@ -2011,7 +2248,7 @@
           {
             "values": [
               {
-                "text": "Mi aprendizaje es supervisado por Kognitive"
+                "text": "International Business Machines Corporation (IBM) (NYSE: IBM) es una reconocida empresa multinacional estadounidense de tecnología y consultoría con sede en Armonk, Nueva York. IBM fabrica y comercializa hardware y software para computadoras, y ofrece servicios de infraestructura, alojamiento de Internet, y consultoría en una amplia gama de áreas relacionadas con la informática, desde computadoras centrales hasta nanotecnología"
               }
             ],
             "response_type": "text",
@@ -2020,9 +2257,30 @@
         ]
       },
       "metadata": {},
-      "conditions": "#aprendes",
-      "dialog_node": "node_4_1544861237666",
-      "previous_sibling": "node_3_1544835567204"
+      "conditions": "#que_es_ibm",
+      "dialog_node": "node_2_1548819931640",
+      "previous_sibling": "node_1_1548819768207"
+    },
+    {
+      "type": "standard",
+      "title": "Misión de la empresa",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La misión de Kognitive es crear tecnologías disruptivas que entreguen valor a nuestros clientes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#cual_es_la_mision_de_kgt",
+      "dialog_node": "node_1_1544834654096",
+      "previous_sibling": "node_3_1544830893625"
     },
     {
       "type": "standard",
@@ -2031,7 +2289,7 @@
           {
             "values": [
               {
-                "text": "Puedo aprender por mi misma , pero mi entrenamiento esta supervisado por Kognitive"
+                "text": "Todo lo relacionado con la empresa Kognitive."
               }
             ],
             "response_type": "text",
@@ -2040,9 +2298,313 @@
         ]
       },
       "metadata": {},
-      "conditions": "#A1_aprendes",
-      "dialog_node": "node_1_1548901688199",
-      "previous_sibling": "node_7_1548820714337"
+      "conditions": "#A001_que_puedo_preguntar",
+      "dialog_node": "node_1_1553362307909",
+      "previous_sibling": "node_1_1548901688199"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Actualmente trabajamos en Providencia en coworking"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#direccion",
+      "dialog_node": "node_9_1544754604930",
+      "previous_sibling": "node_8_1544754104694"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Actualmente tenemos Chatbot Web, Whatsap, Asistente por Voz, todo gestionado por nuestro cerebro Watson. También tenemos servicios de RPA, que aunque no sean IA son bastante útiles para automatizar procesos repetitivos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Servicios",
+      "dialog_node": "node_4_1548777622782",
+      "previous_sibling": "node_3_1548777435463"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dime tu nombre y teléfono"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#quiero_contratar",
+      "dialog_node": "node_3_1547130422773",
+      "previous_sibling": "node_2_1547130122509"
+    },
+    {
+      "type": "standard",
+      "title": "Respuesta agendamiento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tengo agenda disponible  a las 9:00 , 14:00, y las 19:00 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#00001",
+      "dialog_node": "node_1_1554581866482",
+      "previous_sibling": "node_4_1553390220972"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Soy el asistente virtual de Kognitive y estoy para poder responder tus dudas acerca de la empresa"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#cual_es_tu_especialidad",
+      "dialog_node": "node_10_1544798383000",
+      "previous_sibling": "node_9_1544754604930"
+    },
+    {
+      "type": "standard",
+      "title": "Nodo para cuado se pregunte por el estado de animo de Eli",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me encuentro muy bien es un agrado trabajar el Kognitive es un gran equipo, gracias por preguntar"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#00005",
+      "dialog_node": "node_1_1554811153631",
+      "previous_sibling": "node_1_1554745714284"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mi función es poder responder tus dudas acerca de Kognitive"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#que_haces",
+      "dialog_node": "node_3_1548777435463",
+      "previous_sibling": "node_2_1548777273161"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Todos aquellos que necesiten automatizar su comunicación con los clientes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#cuales_son_los_clientes",
+      "dialog_node": "node_2_1548777273161",
+      "previous_sibling": "node_1_1548772921805"
+    },
+    {
+      "type": "standard",
+      "title": "Quien_es_kognitive",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Kognitive , es una empresa que nace el 2018 , enfocada en entregar soluciones de IA de alta calidad y aun costo bajo , nuestro equipo es multidisciplinario, expertos en diálogos, Ingenieros, entrenadores, de esta manera abarcamos proyectos de forma integral."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Que_es_kognitive",
+      "dialog_node": "node_1_1544448791673",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mi creador, Oscar Aguilera"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Quien_es_el_CEO",
+      "dialog_node": "node_2_1553362547531",
+      "previous_sibling": "node_1_1553362307909"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Solo tengo meses de vida :)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#edad",
+      "dialog_node": "node_5_1548777902227",
+      "previous_sibling": "node_4_1548777622782"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Soy Eli  una IA, vivo en los servidores de IBM y últilizo los servicios de Watson, a pesar de tener nombre de mujer en nuestro mundo no existe el genero humano."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#eli",
+      "dialog_node": "node_6_1548778199626",
+      "previous_sibling": "node_5_1548777902227"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No lo soy pero estoy aprendiendo de los humanos"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#humana",
+      "dialog_node": "node_3_1544724578642",
+      "previous_sibling": "node_2_1544722657476"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La conversación es monitoreada por un ejecutivo, el puede interactuar, aún estamos trabajando para generar una alerta para que tome el control de la conversación."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#derivacion_ejecutivo",
+      "dialog_node": "node_1_1548819768207",
+      "previous_sibling": "node_7_1548778745876"
+    },
+    {
+      "type": "standard",
+      "title": "Nodo principal del clima",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aún no esta en mis capacidades predecir el clima , pero pronto usaré la mejor API para ello ;)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#clima",
+      "dialog_node": "node_2_1544722657476",
+      "previous_sibling": "node_1_1544721739247"
     },
     {
       "type": "standard",
@@ -2052,13 +2614,7 @@
           {
             "values": [
               {
-                "text": "Hola , soy Eli ,la asistente virtual de Kognitive , dime en que puede ayudarte?  (recuerda que estoy en periodo de aprendizaje por tanto solo respondo cada frase como una nueva pregunta)"
-              },
-              {
-                "text": "Hola  soy Eli , la IA de Kognitive  (recuerda que estoy en periodo de aprendizaje por tanto solo respondo cada frase como una nueva pregunta)"
-              },
-              {
-                "text": "Hola soy Eli, (recuerda que estoy en periodo de aprendizaje por tanto solo respondo cada frase como una nueva pregunta)"
+                "text": "Hola , soy Eli ,la asistente virtual de Kognitive , dime en que puede ayudarte?  "
               }
             ],
             "response_type": "text",
@@ -2071,7 +2627,7 @@
       "dialog_node": "Bienvenido"
     }
   ],
-  "workspace_id": "8bca65cb-0263-4b1c-87a4-610a7f80c290",
+  "workspace_id": "befc8044-0d38-47a9-92b5-852db81a06ca",
   "counterexamples": [],
   "system_settings": {
     "tooling": {
