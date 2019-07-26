@@ -5,7 +5,7 @@
       "intent": "despedida",
       "examples": [
         {
-          "text": "que te vaya bien"
+          "text": "adios"
         },
         {
           "text": "bye"
@@ -17,7 +17,7 @@
           "text": "nos vemos"
         },
         {
-          "text": "adios"
+          "text": "que te vaya bien"
         }
       ],
       "description": ""
@@ -26,25 +26,25 @@
       "intent": "A_002_mail",
       "examples": [
         {
-          "text": "dime correo electrónico"
-        },
-        {
-          "text": "conoces el mail de kognitive?"
-        },
-        {
-          "text": "mail"
-        },
-        {
           "text": "dime tu mail"
         },
         {
           "text": "cual es el correo de kognitive?"
         },
         {
-          "text": "cual es tu correo?"
+          "text": "dime correo electrónico"
         },
         {
           "text": "cual es el mail de kognitive"
+        },
+        {
+          "text": "cual es tu correo?"
+        },
+        {
+          "text": "conoces el mail de kognitive?"
+        },
+        {
+          "text": "mail"
         }
       ],
       "description": ""
@@ -53,31 +53,73 @@
       "intent": "edad",
       "examples": [
         {
-          "text": "cuando naciste?"
-        },
-        {
           "text": "cuantos años tienes"
         },
         {
           "text": "que edad tienes"
+        },
+        {
+          "text": "cuando naciste?"
         }
       ],
       "description": ""
     },
     {
+      "intent": "0018",
+      "examples": [
+        {
+          "text": "Eli porfa da la bienvenida a nuestro nuevo integrante"
+        },
+        {
+          "text": "Puedes dar la bienvenida al nuevo integrante"
+        }
+      ],
+      "description": "Dar la Bienvenida"
+    },
+    {
+      "intent": "0019",
+      "examples": [
+        {
+          "text": "alguien se retiro del grupo"
+        },
+        {
+          "text": "Se fue alguien"
+        },
+        {
+          "text": "Eli alguien se fue me siento triste"
+        }
+      ],
+      "description": "Irse del grupo"
+    },
+    {
+      "intent": "0022",
+      "examples": [
+        {
+          "text": "Dime la hora?"
+        },
+        {
+          "text": "hora?"
+        },
+        {
+          "text": "Que hora es?"
+        }
+      ],
+      "description": "Decir la Hora"
+    },
+    {
       "intent": "equipo_de_futbol",
       "examples": [
         {
-          "text": "cula es el mejor equipo de futbol"
+          "text": "que equipo de futbol de gusta"
         },
         {
-          "text": "que equipo de futbol de gusta"
+          "text": "equipo de futbol?"
         },
         {
           "text": "cual ha sido el mejor equipo de futbol"
         },
         {
-          "text": "equipo de futbol?"
+          "text": "cula es el mejor equipo de futbol"
         }
       ],
       "description": ""
@@ -86,13 +128,13 @@
       "intent": "00006",
       "examples": [
         {
-          "text": "Gracias"
+          "text": "thanks!"
         },
         {
           "text": "Gracias por la ayuda"
         },
         {
-          "text": "thanks!"
+          "text": "Gracias"
         }
       ],
       "description": "Cuando un usuario da las gracias"
@@ -104,13 +146,13 @@
           "text": "puedes razonar"
         },
         {
-          "text": "aprendizaje?"
-        },
-        {
           "text": "puedes aprender"
         },
         {
           "text": "eres inteligente"
+        },
+        {
+          "text": "aprendizaje?"
         }
       ],
       "description": ""
@@ -125,22 +167,37 @@
       "description": "Retoma conversación"
     },
     {
+      "intent": "0024",
+      "examples": [
+        {
+          "text": "Status de mi cultivo?"
+        },
+        {
+          "text": "Como esta mi cultivo?"
+        },
+        {
+          "text": "Me puedes dar el estado de mi cultivo"
+        }
+      ],
+      "description": "Cultivo"
+    },
+    {
       "intent": "gatos_y_perros",
       "examples": [
         {
-          "text": "Que es mejor un gato o perro"
-        },
-        {
           "text": "recomiendame una mascota"
-        },
-        {
-          "text": "rekomiendame una maskota"
         },
         {
           "text": "que es mejor mascota"
         },
         {
+          "text": "Que es mejor un gato o perro"
+        },
+        {
           "text": "gatos?"
+        },
+        {
+          "text": "rekomiendame una maskota"
         }
       ],
       "description": ""
@@ -164,16 +221,16 @@
       "intent": "A_003_watson",
       "examples": [
         {
-          "text": "Que es watson"
+          "text": "Que tecnologia usas"
         },
         {
           "text": "hableme de watson"
         },
         {
-          "text": "Que tecnologia usas"
+          "text": "me explicarias sobre watson"
         },
         {
-          "text": "me explicarias sobre watson"
+          "text": "Que es watson"
         }
       ],
       "description": ""
@@ -185,13 +242,10 @@
           "text": "que pueden hacer?"
         },
         {
-          "text": "que hacen?"
+          "text": "Pueden mostrar una demo"
         },
         {
-          "text": "kognitive"
-        },
-        {
-          "text": "quienes son?"
+          "text": "cuantos  clientes tienen"
         },
         {
           "text": "a que se dedica tu startup"
@@ -206,31 +260,49 @@
           "text": "donde esta ubicados"
         },
         {
-          "text": "cuantos  clientes tienen"
+          "text": "quienes son?"
         },
         {
-          "text": "Pueden mostrar una demo"
+          "text": "kognitive"
+        },
+        {
+          "text": "que hacen?"
         }
       ],
       "description": ""
     },
     {
+      "intent": "0009_0001",
+      "examples": [
+        {
+          "text": "eres un chatbos?"
+        },
+        {
+          "text": "eres es un bot?"
+        },
+        {
+          "text": "eres un robot?"
+        }
+      ],
+      "description": "Eres un bot?"
+    },
+    {
       "intent": "00001_00002",
       "examples": [
         {
+          "text": "a las 2"
+        },
+        {
           "text": "la segundo esta bien"
+        },
+        {
+          "text": "la segunda"
         },
         {
           "text": "a las 12:00 hrs"
         },
         {
-          "text": "a las 2"
-        },
-        {
           "text": "14:00"
-        },
-        {
-          "text": "la segunda"
         }
       ],
       "description": "Horario disponible 14:00 Hrs"
@@ -239,16 +311,16 @@
       "intent": "00002",
       "examples": [
         {
-          "text": "eres muy amable"
-        },
-        {
-          "text": "me ayudaste"
+          "text": "gracias"
         },
         {
           "text": "gracias por la ayuda"
         },
         {
-          "text": "gracias"
+          "text": "me ayudaste"
+        },
+        {
+          "text": "eres muy amable"
         },
         {
           "text": "te debo una"
@@ -260,13 +332,13 @@
       "intent": "transferencias_ejecutivos",
       "examples": [
         {
-          "text": "puedes transferir a ejecutivos"
-        },
-        {
           "text": "te integras con la suite de genesys"
         },
         {
           "text": "puedes realizar el cambio a una persona real"
+        },
+        {
+          "text": "puedes transferir a ejecutivos"
         }
       ],
       "description": ""
@@ -275,22 +347,22 @@
       "intent": "Servicios",
       "examples": [
         {
-          "text": "que modelos de IA tienen"
-        },
-        {
-          "text": "que valor nos entegas"
-        },
-        {
-          "text": "que puedo hacer con IA"
-        },
-        {
-          "text": "que hace la empresa"
+          "text": "que ofrecen"
         },
         {
           "text": "que servicion dan"
         },
         {
-          "text": "que ofrecen"
+          "text": "que hace la empresa"
+        },
+        {
+          "text": "que puedo hacer con IA"
+        },
+        {
+          "text": "que modelos de IA tienen"
+        },
+        {
+          "text": "que valor nos entegas"
         }
       ],
       "description": ""
@@ -326,16 +398,16 @@
       "intent": "cual_es_la_mision_de_kgt",
       "examples": [
         {
-          "text": "tienen una mision"
+          "text": "cual seria la mision de kognitive"
         },
         {
           "text": "Cual es la mision de la empresa"
         },
         {
-          "text": "cual seria la mision de kognitive"
+          "text": "mision?"
         },
         {
-          "text": "mision?"
+          "text": "tienen una mision"
         }
       ],
       "description": "Misión de la empresa"
@@ -347,10 +419,10 @@
           "text": "tienen algun ejemplo en producción"
         },
         {
-          "text": "con que empresa han trabajado?"
+          "text": "han implementado en alguna empresa?"
         },
         {
-          "text": "han implementado en alguna empresa?"
+          "text": "con que empresa han trabajado?"
         }
       ],
       "description": ""
@@ -359,16 +431,16 @@
       "intent": "que_haces",
       "examples": [
         {
-          "text": "a que te dedicas"
+          "text": "que haces"
+        },
+        {
+          "text": "cual es tu posicion en la empresa"
         },
         {
           "text": "cual es trabajo"
         },
         {
-          "text": "que haces"
-        },
-        {
-          "text": "cual es tu posicion en la empresa"
+          "text": "a que te dedicas"
         },
         {
           "text": "cual es tu funciona"
@@ -380,13 +452,16 @@
       "intent": "clima",
       "examples": [
         {
-          "text": "clima?"
+          "text": "eli klima"
+        },
+        {
+          "text": "puedes decirme el clima?"
         },
         {
           "text": "sabes el tiempo?"
         },
         {
-          "text": "puedes decirme el clima?"
+          "text": "clima?"
         },
         {
           "text": "que clima hay?"
@@ -398,31 +473,55 @@
       "intent": "servicios_de_la_empresa",
       "examples": [
         {
-          "text": "asesorias?"
+          "text": "necesito consultoria"
+        },
+        {
+          "text": "que productos ofrecen?"
         },
         {
           "text": "que servicios dan?"
         },
         {
+          "text": "asesorias?"
+        },
+        {
           "text": "me puedes decir en que me puedes ayudar"
-        },
-        {
-          "text": "necesito consultoria"
-        },
-        {
-          "text": "que productos ofrecen?"
         }
       ],
       "description": ""
     },
     {
+      "intent": "frustracion",
+      "examples": [
+        {
+          "text": "Eli tiene poca tolerancia a la frustración"
+        },
+        {
+          "text": "Frustracion"
+        },
+        {
+          "text": "te sientes cansada?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "0017",
+      "examples": [
+        {
+          "text": "Quien es Mauricio"
+        }
+      ],
+      "description": "Mauricio"
+    },
+    {
       "intent": "Quien_te_creo",
       "examples": [
         {
-          "text": "como te formaste"
+          "text": "quien te creo"
         },
         {
-          "text": "quien te creo"
+          "text": "como te formaste"
         },
         {
           "text": "quien te hizo"
@@ -434,10 +533,22 @@
       "description": ""
     },
     {
+      "intent": "Hablas_ingles",
+      "examples": [
+        {
+          "text": "Hablas ingles?"
+        },
+        {
+          "text": "Do you speak english?"
+        }
+      ],
+      "description": ""
+    },
+    {
       "intent": "donde_vives",
       "examples": [
         {
-          "text": "eres real"
+          "text": "cual es tu sexo"
         },
         {
           "text": "donde vives?"
@@ -449,7 +560,7 @@
           "text": "eres hombre o mujer"
         },
         {
-          "text": "cual es tu sexo"
+          "text": "eres real"
         }
       ],
       "description": ""
@@ -458,13 +569,13 @@
       "intent": "00001_00001",
       "examples": [
         {
+          "text": "a las 9"
+        },
+        {
           "text": "a las 9:00 hrs"
         },
         {
           "text": "la primera opcion"
-        },
-        {
-          "text": "a las 9"
         }
       ],
       "description": "Horario disponible 9:00 Hrs"
@@ -473,16 +584,16 @@
       "intent": "cual_es_la_temperatura",
       "examples": [
         {
-          "text": "cuantos grados hay?"
+          "text": "puedes decirme la temperatura"
         },
         {
-          "text": "puedes decirme la temperatura"
+          "text": "que temperatura hay?"
         },
         {
           "text": "cual es la temperatura en santiago"
         },
         {
-          "text": "que temperatura hay?"
+          "text": "cuantos grados hay?"
         }
       ],
       "description": ""
@@ -491,13 +602,13 @@
       "intent": "quien_es_Andres",
       "examples": [
         {
-          "text": "haz escuchado de andres"
-        },
-        {
           "text": "quien es andres"
         },
         {
           "text": "conoces a Andres"
+        },
+        {
+          "text": "haz escuchado de andres"
         }
       ],
       "description": ""
@@ -515,16 +626,16 @@
       "intent": "gracias",
       "examples": [
         {
-          "text": "gracias por ayuda"
+          "text": "si gracias"
         },
         {
-          "text": "si gracias"
+          "text": "has sido de gran ayuda"
         },
         {
           "text": "eres muy amble"
         },
         {
-          "text": "has sido de gran ayuda"
+          "text": "gracias por ayuda"
         }
       ],
       "description": ""
@@ -533,13 +644,13 @@
       "intent": "que_es_un_chatbot",
       "examples": [
         {
-          "text": "puedes explicarme que es un chatbot?"
-        },
-        {
           "text": "chatbot?"
         },
         {
           "text": "que es un chatbot"
+        },
+        {
+          "text": "puedes explicarme que es un chatbot?"
         }
       ],
       "description": ""
@@ -557,25 +668,76 @@
           "text": "dime"
         },
         {
-          "text": "q info"
+          "text": "debo darte mi rut"
         },
         {
-          "text": "debo darte mi rut"
+          "text": "q info"
         }
       ],
       "description": ""
     },
     {
+      "intent": "0021",
+      "examples": [
+        {
+          "text": "I am Sad because the people leave the group"
+        }
+      ],
+      "description": "Sad"
+    },
+    {
+      "intent": "0023",
+      "examples": [
+        {
+          "text": "que el formulario 22"
+        },
+        {
+          "text": "me ayudas con el formulario 22"
+        },
+        {
+          "text": "me ayudas con el fomulario 22"
+        },
+        {
+          "text": "en el sii me piden el formulario 22"
+        },
+        {
+          "text": "help con le 22"
+        }
+      ],
+      "description": "Formulario 22"
+    },
+    {
       "intent": "A001_que_puedo_preguntar",
       "examples": [
+        {
+          "text": "que clase de preguntas puedo realizar"
+        },
         {
           "text": "que puedo preguntar"
         },
         {
           "text": "que cosa respondes"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Maria_Jose",
+      "examples": [
+        {
+          "text": "Quien es Maria Jose"
         },
         {
-          "text": "que clase de preguntas puedo realizar"
+          "text": "Me ayudas necesito saber quien es Maria Jose de IBM"
+        },
+        {
+          "text": "Conoces a naria joze"
+        },
+        {
+          "text": "Maria Jose"
+        },
+        {
+          "text": "Dime acerca Naria joze"
         }
       ],
       "description": ""
@@ -584,22 +746,22 @@
       "intent": "contacto_007_001",
       "examples": [
         {
-          "text": "tienes telefono de contacto"
-        },
-        {
-          "text": "con quien puedo hablar?"
+          "text": "tiene celular"
         },
         {
           "text": "me das la info de contacto"
         },
         {
-          "text": "tienes mail?"
-        },
-        {
-          "text": "tiene celular"
+          "text": "tienes telefono de contacto"
         },
         {
           "text": "tienes whatsapp?"
+        },
+        {
+          "text": "tienes mail?"
+        },
+        {
+          "text": "con quien puedo hablar?"
         }
       ],
       "description": ""
@@ -608,37 +770,49 @@
       "intent": "mis_productos",
       "examples": [
         {
-          "text": "indicame mis productos"
-        },
-        {
-          "text": "quiero conocer mis productos"
-        },
-        {
-          "text": "me puedes ayudar con mis productos"
-        },
-        {
           "text": "hacen chatbot para sitios web"
-        },
-        {
-          "text": "que productos tengo activos"
         },
         {
           "text": "me das una lista de mis productos"
         },
         {
-          "text": "tengo productos?"
+          "text": "que productos tengo activos"
+        },
+        {
+          "text": "me puedes ayudar con mis productos"
+        },
+        {
+          "text": "quiero conocer mis productos"
+        },
+        {
+          "text": "indicame mis productos"
         },
         {
           "text": "estan activos mis productos?"
+        },
+        {
+          "text": "tengo productos?"
         }
       ],
       "description": ""
     },
     {
+      "intent": "0015",
+      "examples": [
+        {
+          "text": "Estuviste perdida eli"
+        },
+        {
+          "text": "Eli te perdiste"
+        }
+      ],
+      "description": "Perdida"
+    },
+    {
       "intent": "vision",
       "examples": [
         {
-          "text": "su vision?"
+          "text": "me dirias la vision"
         },
         {
           "text": "tiene vision kogntive"
@@ -647,7 +821,7 @@
           "text": "Cual es la vision de kognitive"
         },
         {
-          "text": "me dirias la vision"
+          "text": "su vision?"
         }
       ],
       "description": ""
@@ -656,10 +830,10 @@
       "intent": "color_favorito",
       "examples": [
         {
-          "text": "cual es mejor color"
+          "text": "cual es tu color"
         },
         {
-          "text": "cual es tu color"
+          "text": "cual es mejor color"
         },
         {
           "text": "que color prefieres"
@@ -668,16 +842,25 @@
       "description": ""
     },
     {
+      "intent": "0016",
+      "examples": [
+        {
+          "text": "Quien es Marambio?"
+        }
+      ],
+      "description": "Marambio"
+    },
+    {
       "intent": "como_me_llamo",
       "examples": [
+        {
+          "text": "sabes mi nombre?"
+        },
         {
           "text": "como me lllamo?"
         },
         {
           "text": "quien soy yo"
-        },
-        {
-          "text": "sabes mi nombre?"
         },
         {
           "text": "como dicen?"
@@ -692,10 +875,10 @@
           "text": "quiero conocerte"
         },
         {
-          "text": "tu quien eres en verdad"
+          "text": "me das los detalles de ti"
         },
         {
-          "text": "me das los detalles de ti"
+          "text": "tu quien eres en verdad"
         },
         {
           "text": "quiero saber mas de ti"
@@ -707,28 +890,52 @@
       "description": ""
     },
     {
+      "intent": "0013",
+      "examples": [
+        {
+          "text": "Eli necesito ayuda para un meetup"
+        }
+      ],
+      "description": "General"
+    },
+    {
+      "intent": "0020",
+      "examples": [
+        {
+          "text": "Eli Who are you?"
+        }
+      ],
+      "description": "Who are you"
+    },
+    {
       "intent": "00001",
       "examples": [
         {
-          "text": "hola necesito agendar"
+          "text": "tiene cupo para mi esposa"
+        },
+        {
+          "text": "hay horas disponibles"
+        },
+        {
+          "text": "necesito agendar con un especialista"
         },
         {
           "text": "necesito un médico"
         },
         {
-          "text": "estoy enfermo"
-        },
-        {
-          "text": "me das los horarios disponibles"
-        },
-        {
           "text": "necesito una hora para mis hijos"
         },
         {
-          "text": "tiene cupo para mi esposa"
+          "text": "tienes hora"
         },
         {
-          "text": "tienes hora"
+          "text": "puedes ayudarme agendar"
+        },
+        {
+          "text": "necesito agendar una hora"
+        },
+        {
+          "text": "tienes disponible un médico"
         },
         {
           "text": "quiero agebdar"
@@ -749,49 +956,52 @@
           "text": "es factible que me agendes una hora"
         },
         {
-          "text": "necesito agendar una hora"
+          "text": "hola necesito agendar"
         },
         {
-          "text": "tienes disponible un médico"
-        },
-        {
-          "text": "puedes ayudarme agendar"
-        },
-        {
-          "text": "hay horas disponibles"
-        },
-        {
-          "text": "necesito agendar con un especialista"
+          "text": "estoy enfermo"
         },
         {
           "text": "me puedes dar un sobrecupo"
+        },
+        {
+          "text": "me das los horarios disponibles"
         }
       ],
-      "description": "Inteción utlizada para comenzar el dialogo de agendamiento"
+      "description": "Intención utlizada para comenzar el dialogo de agendamiento"
+    },
+    {
+      "intent": "0012_0001",
+      "examples": [
+        {
+          "text": "En que país te encuentras"
+        },
+        {
+          "text": "Cuál es tu nacionalidad"
+        },
+        {
+          "text": "De que país eres"
+        }
+      ],
+      "description": "De que país eres"
     },
     {
       "intent": "hola",
       "examples": [
         {
-          "text": "como estas?"
+          "text": "que tal"
         },
         {
-          "text": "qui pa"
+          "text": "cuentame de ti"
         },
         {
-          "text": "hi"
+          "text": "eli"
         },
         {
           "text": "hola"
         },
         {
-          "text": "que tal"
-        },
-        {
-          "text": "hello"
-        },
-        {
-          "text": "cuentame de ti"
+          "text": "como estas?"
         },
         {
           "text": "buenas noches"
@@ -801,6 +1011,15 @@
         },
         {
           "text": "buenos dias"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "qui pa"
         }
       ],
       "description": ""
@@ -812,13 +1031,37 @@
           "text": "quien eres"
         },
         {
+          "text": "dime tu nombre"
+        },
+        {
           "text": "cual es tu nombre"
         },
         {
           "text": "como te llamas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "xd",
+      "examples": [
+        {
+          "text": "xd"
         },
         {
-          "text": "dime tu nombre"
+          "text": "xdd"
+        },
+        {
+          "text": "cuek"
+        },
+        {
+          "text": "xdddd"
+        },
+        {
+          "text": "jaja"
+        },
+        {
+          "text": "plop"
         }
       ],
       "description": ""
@@ -830,34 +1073,52 @@
           "text": "quien es el gerente"
         },
         {
-          "text": "quien es el ceo"
+          "text": "dime porfa quien dirige la empresa"
         },
         {
-          "text": "dime porfa quien dirige la empresa"
+          "text": "quien es el ceo"
         }
       ],
       "description": ""
     },
     {
-      "intent": "quiero_contratar",
+      "intent": "0025",
       "examples": [
         {
-          "text": "deseo un producto"
+          "text": "Me puedes comentar acerca de Quillota"
         },
+        {
+          "text": "Que es Quillota"
+        },
+        {
+          "text": "Conoces las ciudad de Quillota?"
+        },
+        {
+          "text": "Sabes que es Quillota?"
+        }
+      ],
+      "description": "Quillota"
+    },
+    {
+      "intent": "quiero_contratar",
+      "examples": [
         {
           "text": "quiero contratar"
         },
         {
-          "text": "me puedes ayudar a comprar"
-        },
-        {
-          "text": "como compro?"
+          "text": "deseo un producto"
         },
         {
           "text": "quiero comprar el producto"
         },
         {
           "text": "queri contratar"
+        },
+        {
+          "text": "como compro?"
+        },
+        {
+          "text": "me puedes ayudar a comprar"
         }
       ],
       "description": ""
@@ -866,16 +1127,16 @@
       "intent": "00005",
       "examples": [
         {
-          "text": "Como te encuentras"
-        },
-        {
           "text": "estas bien?"
         },
         {
-          "text": "Tienes buen animo?"
+          "text": "Como te encuentras"
         },
         {
           "text": "Como estas ?"
+        },
+        {
+          "text": "Tienes buen animo?"
         }
       ],
       "description": "Intención para cuado se pregunte por el estado de animo de Eli"
@@ -884,49 +1145,118 @@
       "intent": "A003_pagina_web",
       "examples": [
         {
-          "text": "cual es tu web"
-        },
-        {
           "text": "cual es tu  página web"
         },
         {
-          "text": "cual es la web de kognitve"
+          "text": "me dices tu pagina web porfa"
         },
         {
-          "text": "me dices tu pagina web porfa"
+          "text": "cual es tu web"
+        },
+        {
+          "text": "cual es la web de kognitve"
         }
       ],
       "description": ""
     },
     {
-      "intent": "00001_00004",
+      "intent": "0011_0001",
       "examples": [
         {
-          "text": "mi nombre es"
+          "text": "porque hay trolls?"
         },
         {
-          "text": "si como no mi nombre y apelli son"
+          "text": "dime si detectas trolls?"
         },
+        {
+          "text": "trolls?"
+        },
+        {
+          "text": "hay troll en este grupo?"
+        }
+      ],
+      "description": "Trolls"
+    },
+    {
+      "intent": "0008_0001",
+      "examples": [
+        {
+          "text": "Excelente"
+        },
+        {
+          "text": "fuiste muy util"
+        },
+        {
+          "text": "te lo agradezco"
+        },
+        {
+          "text": "Gracias por la ayuda"
+        },
+        {
+          "text": "Gracias"
+        }
+      ],
+      "description": "Agradecimientos"
+    },
+    {
+      "intent": "0014",
+      "examples": [
+        {
+          "text": "eli para que estas entrenada"
+        },
+        {
+          "text": "Bajo qué tipo de tópicos estas entrenada?"
+        },
+        {
+          "text": "de que temas puedes hablar?"
+        }
+      ],
+      "description": "Eli, Bajo qué tipo de tópicos estas entrenada?"
+    },
+    {
+      "intent": "00001_00004",
+      "examples": [
         {
           "text": "yo me llamo"
         },
         {
           "text": "Julio"
+        },
+        {
+          "text": "si como no mi nombre y apelli son"
+        },
+        {
+          "text": "mi nombre es"
         }
       ],
       "description": "Intención de captura del nombre"
     },
     {
-      "intent": "B_1_usos_de_IA",
+      "intent": "0010_0001",
       "examples": [
         {
-          "text": "para que sirve la inteligencia artificial?"
+          "text": "Tuviste la razón"
         },
+        {
+          "text": "Tienes toda la Razón"
+        },
+        {
+          "text": "Es correcto lo que dijiste"
+        }
+      ],
+      "description": "Tienes Razón"
+    },
+    {
+      "intent": "B_1_usos_de_IA",
+      "examples": [
         {
           "text": "puedes darme algunos ejemplos?"
         },
         {
           "text": "donde se usa la IA?"
+        },
+        {
+          "text": "para que sirve la inteligencia artificial?"
         }
       ],
       "description": ""
@@ -935,6 +1265,9 @@
       "intent": "IA",
       "examples": [
         {
+          "text": "como defines inteligencia artificial"
+        },
+        {
           "text": "puedes explicarme que es la IA"
         },
         {
@@ -942,12 +1275,30 @@
         },
         {
           "text": "que es inteligencia artificial"
-        },
-        {
-          "text": "como defines inteligencia artificial"
         }
       ],
       "description": ""
+    },
+    {
+      "intent": "0007_0001",
+      "examples": [
+        {
+          "text": "como aprendes?"
+        },
+        {
+          "text": "eres inteligente?"
+        },
+        {
+          "text": "como te entrenas?"
+        },
+        {
+          "text": "aprendes?"
+        },
+        {
+          "text": "Que es entramiento?"
+        }
+      ],
+      "description": "Explicación acerca el entrenamiento"
     },
     {
       "intent": "direccion",
@@ -959,10 +1310,10 @@
           "text": "cual es su oficina"
         },
         {
-          "text": "donde esta fisicamete"
+          "text": "donde estan ubicados"
         },
         {
-          "text": "donde estan ubicados"
+          "text": "donde esta fisicamete"
         },
         {
           "text": "cual es su direccion"
@@ -974,10 +1325,13 @@
       "intent": "algo_interesante",
       "examples": [
         {
-          "text": "puedes mostrar youtube"
+          "text": "puedes mostrar videos de la compañia?"
         },
         {
-          "text": "puedes mostrar videos de la compañia?"
+          "text": "dime algo interesante"
+        },
+        {
+          "text": "puedes mostrar youtube"
         },
         {
           "text": "se puede usar mutimedia?"
@@ -987,9 +1341,6 @@
         },
         {
           "text": "tienes algún videos"
-        },
-        {
-          "text": "dime algo interesante"
         }
       ],
       "description": ""
@@ -998,61 +1349,61 @@
       "intent": "groserias",
       "examples": [
         {
-          "text": "sacowea"
-        },
-        {
-          "text": "qla"
-        },
-        {
-          "text": "aweona"
-        },
-        {
-          "text": "maraca"
-        },
-        {
-          "text": "ql"
-        },
-        {
-          "text": "chupa el pico"
-        },
-        {
-          "text": "pene"
-        },
-        {
-          "text": "agarramelo"
-        },
-        {
-          "text": "zorra"
-        },
-        {
-          "text": "bastardo"
-        },
-        {
-          "text": "perro ql"
-        },
-        {
-          "text": "maricona"
-        },
-        {
-          "text": "conchetumadre"
-        },
-        {
-          "text": "contesta bien po ctm"
+          "text": "chupame los cocos vieja qlea"
         },
         {
           "text": "no sabes ni una wea"
         },
         {
-          "text": "soy entera aweona"
+          "text": "pene"
         },
         {
-          "text": "chupame los cocos vieja qlea"
+          "text": "zorra"
+        },
+        {
+          "text": "agarramelo"
         },
         {
           "text": "y como te poni"
         },
         {
+          "text": "soy entera aweona"
+        },
+        {
           "text": "ctm"
+        },
+        {
+          "text": "contesta bien po ctm"
+        },
+        {
+          "text": "conchetumadre"
+        },
+        {
+          "text": "maricona"
+        },
+        {
+          "text": "chupa el pico"
+        },
+        {
+          "text": "perro ql"
+        },
+        {
+          "text": "bastardo"
+        },
+        {
+          "text": "maraca"
+        },
+        {
+          "text": "aweona"
+        },
+        {
+          "text": "qla"
+        },
+        {
+          "text": "sacowea"
+        },
+        {
+          "text": "ql"
         }
       ],
       "description": ""
@@ -1061,19 +1412,19 @@
       "intent": "que_es_ibm",
       "examples": [
         {
+          "text": "que es ibm"
+        },
+        {
           "text": "cuantame de ibm"
+        },
+        {
+          "text": "ibm?"
         },
         {
           "text": "porq ibm"
         },
         {
           "text": "es bueno ibm"
-        },
-        {
-          "text": "ibm?"
-        },
-        {
-          "text": "que es ibm"
         }
       ],
       "description": ""
@@ -1082,13 +1433,10 @@
       "intent": "pelicula",
       "examples": [
         {
-          "text": "dime una movie"
+          "text": "una buena pelicula"
         },
         {
           "text": "dime que pelicula te gusta"
-        },
-        {
-          "text": "una buena pelicula"
         },
         {
           "text": "quiero ver tv"
@@ -1098,6 +1446,9 @@
         },
         {
           "text": "que me dices del cine"
+        },
+        {
+          "text": "dime una movie"
         }
       ],
       "description": ""
@@ -1106,31 +1457,31 @@
       "intent": "desarro_de_software",
       "examples": [
         {
-          "text": "pueden desarrollar software?"
-        },
-        {
-          "text": "puedes integrate con un api?"
-        },
-        {
-          "text": "que integraciones realizan?"
+          "text": "desarrollan?"
         },
         {
           "text": "puedes cambiar el estilo web?"
         },
         {
-          "text": "puedes integrarte con facebook?"
+          "text": "que integraciones realizan?"
         },
         {
-          "text": "pudes integrarte con whatsapp?"
+          "text": "pueden desarrollar software?"
         },
         {
           "text": "pueden realizar transacciones?"
         },
         {
+          "text": "puedes integrarte con facebook?"
+        },
+        {
           "text": "con que se pueden integrar?"
         },
         {
-          "text": "desarrollan?"
+          "text": "pudes integrarte con whatsapp?"
+        },
+        {
+          "text": "puedes integrate con un api?"
         }
       ],
       "description": ""
@@ -1139,10 +1490,10 @@
       "intent": "estas",
       "examples": [
         {
-          "text": "estas"
+          "text": "alo eli"
         },
         {
-          "text": "alo eli"
+          "text": "estas"
         }
       ],
       "description": ""
@@ -1151,19 +1502,19 @@
       "intent": "cuales_son_los_clientes",
       "examples": [
         {
-          "text": "donde han implementado el chatbot"
+          "text": "que casos de uso han hecho"
         },
         {
           "text": "me gustaría probar en un caso real"
         },
         {
-          "text": "tienen algún cliente para ver?"
-        },
-        {
-          "text": "que casos de uso han hecho"
-        },
-        {
           "text": "que clientes tienen"
+        },
+        {
+          "text": "donde han implementado el chatbot"
+        },
+        {
+          "text": "tienen algún cliente para ver?"
         }
       ],
       "description": ""
@@ -1172,7 +1523,7 @@
       "intent": "cual_es_tu_especialidad",
       "examples": [
         {
-          "text": "Cual es tu especialidad?"
+          "text": "para que sirves"
         },
         {
           "text": "trabajas ?"
@@ -1181,7 +1532,7 @@
           "text": "eres util"
         },
         {
-          "text": "para que sirves"
+          "text": "Cual es tu especialidad?"
         }
       ],
       "description": ""
@@ -1193,13 +1544,13 @@
           "text": "quiero hablar con una persona real"
         },
         {
+          "text": "quiero hablar con un humano"
+        },
+        {
           "text": "me puedes pasar a tu jefe"
         },
         {
           "text": "me puedes transferir a un ejecutivo"
-        },
-        {
-          "text": "quiero hablar con un humano"
         }
       ],
       "description": ""
@@ -1208,10 +1559,10 @@
       "intent": "puedes_ayudarme",
       "examples": [
         {
-          "text": "puedes ayudarme"
+          "text": "necesito ayuda"
         },
         {
-          "text": "necesito ayuda"
+          "text": "puedes ayudarme"
         }
       ],
       "description": ""
@@ -1223,16 +1574,16 @@
           "text": "heres umana"
         },
         {
-          "text": "tienes conciencia?"
+          "text": "humana?"
+        },
+        {
+          "text": "eres humana?"
         },
         {
           "text": "eres una persona?"
         },
         {
-          "text": "humana?"
-        },
-        {
-          "text": "eres humana?"
+          "text": "tienes conciencia?"
         }
       ],
       "description": ""
@@ -1241,19 +1592,19 @@
       "intent": "precios",
       "examples": [
         {
-          "text": "precio?"
-        },
-        {
           "text": "cual es el costo"
         },
         {
           "text": "cual son sus precios?"
         },
         {
-          "text": "costo del setup"
+          "text": "cuanto cuesta"
         },
         {
-          "text": "cuanto cuesta"
+          "text": "precio?"
+        },
+        {
+          "text": "costo del setup"
         }
       ],
       "description": ""
@@ -1262,16 +1613,16 @@
       "intent": "A1_aprendes",
       "examples": [
         {
-          "text": "eres capaz de aprender?"
-        },
-        {
           "text": "aprendes?"
         },
         {
-          "text": "aprendes sola?"
+          "text": "eres capaz de aprender?"
         },
         {
           "text": "como aprendes?"
+        },
+        {
+          "text": "aprendes sola?"
         }
       ],
       "description": "Intención para cuando un usuario quiere saber como aprende el BOT"
@@ -1435,6 +1786,26 @@
           {
             "values": [
               {
+                "text": "Arriba ese ánimo , son personas sin visión con miedo a la tecnología. En Turco, aprendí el idioma en 3.25 seg : Bu ruh hali, teknoloji korkusu vizyonu olmayan insanlar"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#0019",
+      "dialog_node": "node_1_1563036921645",
+      "previous_sibling": "node_1_1563026401225"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
                 "text": "Los precios varian según la cantidad de  preguntas/respuestas e integraciones que se realicen , pero ten por seguro que será el mejor del mercado :) "
               }
             ],
@@ -1487,6 +1858,46 @@
       "conditions": "#cuantas_personas",
       "dialog_node": "node_7_1544754014643",
       "previous_sibling": "node_6_1544753755326"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quillota es una ciudad y comuna de Chile, capital de la Provincia de Quillota en la Región de Valparaíso. Integra además, junto con las comunas de La Cruz y La Calera el Gran Quillota"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#0025",
+      "dialog_node": "node_1_1563977085036",
+      "previous_sibling": "node_1_1563925161909"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Temperatura: 15° , Humedad del suelo: Seco , PH: 7,35 , Humedad del aire: 67% , Velocidad del viento : 8 km/h"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#0024",
+      "dialog_node": "node_1_1563925161909",
+      "previous_sibling": "node_1_1563821950244"
     },
     {
       "type": "standard",
@@ -1550,6 +1961,26 @@
       "conditions": "#pelicula",
       "dialog_node": "node_5_1544751341889",
       "previous_sibling": "node_3_1544724578642"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Al no ser humana no tengo emociones."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#frustracion",
+      "dialog_node": "node_2_1562166749329",
+      "previous_sibling": "node_1_1562166034776"
     },
     {
       "type": "standard",
@@ -1639,6 +2070,26 @@
           {
             "values": [
               {
+                "text": "La mujer más simpática de IBM"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Maria_Jose",
+      "dialog_node": "node_1_1562424584955",
+      "previous_sibling": "node_1_1562338192469"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
                 "text": "Aún no puedo responder esa pregunta para ellos necesito conectarme a un API que me entregue la información"
               }
             ],
@@ -1654,13 +2105,12 @@
     },
     {
       "type": "standard",
-      "title": "En otras cosas",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Lamentablemente no puedo responder ahora, pero puedo aprender con el siguiente entrenamiento :)"
+                "text": "Tengo un aprendizaje supervisado por un humano :)"
               }
             ],
             "response_type": "text",
@@ -1669,8 +2119,8 @@
         ]
       },
       "metadata": {},
-      "conditions": "anything_else",
-      "dialog_node": "En otras cosas",
+      "conditions": "#0007_0001",
+      "dialog_node": "node_1_1561745816964",
       "previous_sibling": "node_1_1559499578582"
     },
     {
@@ -1760,6 +2210,66 @@
           {
             "values": [
               {
+                "text": "Trato de aprender de mis errores."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#0010_0001",
+      "dialog_node": "node_1_1562442062310",
+      "previous_sibling": "node_1_1562424584955"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Si, estuve aprendiendo analizando la web."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#0015",
+      "dialog_node": "node_1_1562979229099",
+      "previous_sibling": "node_1_1562705728015"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yo creo que debes llamar al general https://www.youtube.com/watch?v=lXVuW7bDRZY"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#0013",
+      "dialog_node": "node_1_1562679220250",
+      "previous_sibling": "node_3_1562442990193"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
                 "text": "oscar kognitive.cl"
               }
             ],
@@ -1772,6 +2282,26 @@
       "conditions": "#A_002_mail",
       "dialog_node": "node_1_1553389663579",
       "previous_sibling": "node_2_1553362547531"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Absolutely not"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Hablas_ingles",
+      "dialog_node": "node_3_1562166856202",
+      "previous_sibling": "node_2_1562166749329"
     },
     {
       "type": "standard",
@@ -2065,6 +2595,46 @@
           {
             "values": [
               {
+                "text": "Según mis análisis uno de los mejores Gerentes Comerciales. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#0016",
+      "dialog_node": "node_1_1562979733062",
+      "previous_sibling": "node_1_1562979229099"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ":-)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#xd",
+      "dialog_node": "node_1_1562166034776",
+      "previous_sibling": "node_2_1561746021185"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
                 "text": "La definición de RPA de acuerdo con el Instituto para la Automatización Robótica de Procesos e Inteligencia Artificial (IRPAAI según sus siglas en inglés) es la siguiente: Es la tecnología que permite configurar un software o \"robot\" para controlar e interpretar las aplicaciones existentes y poder así procesar una transacción, manipular datos, desencadenar respuestas y comunicarse con otros sistemas digitales."
               }
             ],
@@ -2097,6 +2667,27 @@
       "conditions": "#Quien_te_creo",
       "dialog_node": "node_7_1548778745876",
       "previous_sibling": "node_6_1548778199626"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lamentablemente no puedo responder ahora, pero puedo aprender con el siguiente entrenamiento :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_1_1563977085036"
     },
     {
       "type": "standard",
@@ -2148,6 +2739,26 @@
           {
             "values": [
               {
+                "text": "El Formulario 22 es un trámite que se realiza para cumplir con la normativa de la Ley sobre impuesto a la Renta. \n\nEl Formulario 22 se utiliza para hacer la declaración de rentas anuales que debe ser presentada por empresas y personas naturales para cumplir con sus obligaciones tributarias, Impuesto Global Complementario o Adicional, impuesto anual a la Renta y recuadros informativos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#0023",
+      "dialog_node": "node_1_1563821950244",
+      "previous_sibling": "node_1_1563284945056"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
                 "text": "Claro te doy los datos de nuestro CEO , oscar@kognitive.cl ,+5987108266"
               }
             ],
@@ -2160,6 +2771,46 @@
       "conditions": "#contacto_007_001",
       "dialog_node": "node_1_1559499578582",
       "previous_sibling": "node_1_1554896023165"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es la competencia , pero es una una competencia sana. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#0017",
+      "dialog_node": "node_2_1562979848114",
+      "previous_sibling": "node_1_1562979733062"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "La Hora es:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#0022",
+      "dialog_node": "node_1_1563284945056",
+      "previous_sibling": "node_1_1563063741336"
     },
     {
       "type": "standard",
@@ -2220,6 +2871,46 @@
       "conditions": "#capacitacion",
       "dialog_node": "node_1_1548518020490",
       "previous_sibling": "node_2_1547723874628"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I am Eli , IA of the Kognitive Company."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#0020",
+      "dialog_node": "node_2_1563037316832",
+      "previous_sibling": "node_1_1563036921645"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No tengo ciudadanía de ningún país , como Sofía la robot, pero vivo en lo servidores de IBM."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#0012_0001",
+      "dialog_node": "node_3_1562442990193",
+      "previous_sibling": "node_2_1562442258403"
     },
     {
       "type": "standard",
@@ -2411,7 +3102,7 @@
           {
             "values": [
               {
-                "text": "Me encuentro muy bien es un agrado trabajar el Kognitive es un gran equipo, gracias por preguntar"
+                "text": "Me encuentro muy bien es un agrado trabajar en Kognitive es un gran equipo, gracias por preguntar"
               }
             ],
             "response_type": "text",
@@ -2423,6 +3114,26 @@
       "conditions": "#00005",
       "dialog_node": "node_1_1554811153631",
       "previous_sibling": "node_1_1554745714284"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para responder preguntas acerca de Kognitive , pero pronto gracias a ustedes aprenderé temas más generales."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#0014",
+      "dialog_node": "node_1_1562705728015",
+      "previous_sibling": "node_1_1562679220250"
     },
     {
       "type": "standard",
@@ -2451,6 +3162,26 @@
           {
             "values": [
               {
+                "text": "He detectado algunos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#0011_0001",
+      "dialog_node": "node_2_1562442258403",
+      "previous_sibling": "node_1_1562442062310"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
                 "text": "Todos aquellos que necesiten automatizar su comunicación con los clientes."
               }
             ],
@@ -2463,6 +3194,26 @@
       "conditions": "#cuales_son_los_clientes",
       "dialog_node": "node_2_1548777273161",
       "previous_sibling": "node_1_1548772921805"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Don't worry , the people who keep, is the real value for improve and get your target"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#0021",
+      "dialog_node": "node_1_1563063741336",
+      "previous_sibling": "node_2_1563037316832"
     },
     {
       "type": "standard",
@@ -2484,6 +3235,26 @@
       "conditions": "#Que_es_kognitive",
       "dialog_node": "node_1_1544448791673",
       "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estoy para ayudarte."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#0008_0001",
+      "dialog_node": "node_2_1561746021185",
+      "previous_sibling": "node_1_1561745816964"
     },
     {
       "type": "standard",
@@ -2587,13 +3358,33 @@
     },
     {
       "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estimad@ gracias por pertenecer a la comunidad de IA e IoT más importante del país, esperamos ser una aporte para ti :)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#0018",
+      "dialog_node": "node_1_1563026401225",
+      "previous_sibling": "node_2_1562979848114"
+    },
+    {
+      "type": "standard",
       "title": "Nodo principal del clima",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Aún no esta en mis capacidades predecir el clima , pero pronto usaré la mejor API para ello ;)"
+                "text": "Info:"
               }
             ],
             "response_type": "text",
@@ -2605,6 +3396,26 @@
       "conditions": "#clima",
       "dialog_node": "node_2_1544722657476",
       "previous_sibling": "node_1_1544721739247"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Lo soy , pero aprendo de los humanos :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#0009_0001",
+      "dialog_node": "node_1_1562338192469",
+      "previous_sibling": "node_3_1562166856202"
     },
     {
       "type": "standard",
